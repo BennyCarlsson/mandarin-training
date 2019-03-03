@@ -1,57 +1,52 @@
-import React, { Component } from 'react';
-import vocabulary from "./vocabulary"
-import './App.css';
+import React, { Component } from "react"
+import {getWordsRandomized} from "./vocabularyUtils"
+import "./App.css"
 
 class App extends Component {
-  state = {gameWords:[], correctAnswers:[],wrongAnswers:[], answerOptions:[], questionIndex:0}
+  state = {
+    gameWords: [],
+    correctAnswers: [],
+    wrongAnswers: [],
+    answerOptions: [],
+    questionIndex: 0
+  }
 
   componentDidMount = () => {
-    this.setState({gameWords:this.getWordsRandomized()})
+    this.setState({ gameWords: getWordsRandomized() })
   }
 
-  getWordsRandomized = () => {
-    return this.shuffle(vocabulary.slice())
+  setNextQuestion = () => {
+    const { gameWords, questionIndex } = this.state
+    const question = gameWords[questionIndex]
+    this.setState({ questionIndex: questionIndex + 1, currentWord: question })
   }
 
-  shuffle = (array) => {
-    var currentIndex = array.length, temporaryValue, randomIndex;
-  
-    // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
-  
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-  
-      // And swap it with the current element.
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
+  handleQuestion = () => {}
+
+  getCurrentWord = () => {
+    const { gameWords, questionIndex } = this.state
+    return gameWords[questionIndex]
+  }
+
+  getAnswerOptions = () => {
+    const currentWord = this.getCurrentWord()
+    if (!currentWord) {
+      return
     }
-  
-    return array;
-  }
-
-  nextQuestion = () => {
-
-  }
-
-  handleQuestion = () => {
-
+    return <button onClick={this.setNextQuestion}>{currentWord.pinyin}</button>
   }
 
   render() {
-    console.log(this.state.gameWords)
+    console.log("state: ",this.state)
     return (
       <div className="App">
         <header className="App-header">
-          <p>
-            
-          </p>
+          <h1>{this.getCurrentWord() && this.getCurrentWord().chinese}</h1>
+          <div>{this.getAnswerOptions()}</div>
         </header>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

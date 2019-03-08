@@ -1,6 +1,7 @@
 import React, { Component } from "react"
-import {getWordsRandomized} from "./vocabularyUtils"
+import { getWordsRandomized } from "./vocabularyUtils"
 import "./App.css"
+import Options from "./components/Options"
 
 class App extends Component {
   state = {
@@ -28,21 +29,18 @@ class App extends Component {
     return gameWords[questionIndex]
   }
 
-  getAnswerOptions = () => {
-    const currentWord = this.getCurrentWord()
-    if (!currentWord) {
-      return
-    }
-    return <button onClick={this.setNextQuestion}>{currentWord.pinyin}</button>
-  }
-
   render() {
-    console.log("state: ",this.state)
+    console.log("state: ", this.state)
     return (
       <div className="App">
         <header className="App-header">
-          <h1>{this.getCurrentWord() && this.getCurrentWord().chinese}</h1>
-          <div>{this.getAnswerOptions()}</div>
+          <h1 className="theWord">
+            {this.getCurrentWord() && this.getCurrentWord().chinese}
+          </h1>
+          <Options
+            gameWords={this.state.gameWords}
+            questionIndex={this.state.questionIndex}
+          />
         </header>
       </div>
     )

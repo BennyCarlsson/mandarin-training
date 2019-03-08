@@ -30,3 +30,19 @@
     transform: rotate(360deg);
   }
 }
+
+.theWord {
+  font-size: 8em;
+}
+.optionsDiv {
+  width: 100%;
+}
+.optionRow {
+  display: flex;
+  justify-content: space-between;
+}
+.optionRow button {
+  font-size: 46px;
+  flex: 1;
+  margin: 4px;
+}

@@ -3,12 +3,9 @@ import "../App.css"
 
 const Options = props => {
   const { gameWords, questionIndex } = props
-
   let falseOptions = []
-  console.log("props", props)
 
   while (falseOptions.length < 4 && gameWords.length > 4) {
-    console.log("hi")
     const randomNumber = Math.floor(Math.random() * gameWords.length)
     if (
       randomNumber !== questionIndex &&

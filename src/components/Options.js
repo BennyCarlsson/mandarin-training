@@ -1,5 +1,6 @@
 import React from "react"
 import "../App.css"
+import Button from "@material-ui/core/Button"
 
 const Options = props => {
   const { gameWords, questionIndex } = props
@@ -19,30 +20,60 @@ const Options = props => {
   falseOptions[nr] = questionIndex
   return (
     <div className="optionsDiv">
-      <span className="optionRow">
-        <button onClick={() => console.log("asd")}>
-          {gameWords[falseOptions[0]]
-            ? gameWords[falseOptions[0]].pinyin
-            : "..."}
-        </button>
-        <button onClick={() => console.log("dsa")}>
-          {gameWords[falseOptions[1]]
-            ? gameWords[falseOptions[1]].pinyin
-            : " ..."}
-        </button>
-      </span>
-      <span className="optionRow">
-        <button>
-          {gameWords[falseOptions[2]]
-            ? gameWords[falseOptions[2]].pinyin
-            : "..."}
-        </button>
-        <button>
-          {gameWords[falseOptions[3]]
-            ? gameWords[falseOptions[3]].pinyin
-            : "..."}
-        </button>
-      </span>
+      <div className="topOptionsDiv">
+        <span className="optionButton">
+          <Button
+            className="optionButton"
+            variant="contained"
+            size="large"
+            color="primary"
+            onClick={() => console.log("asd")}
+          >
+            {gameWords[falseOptions[0]]
+              ? gameWords[falseOptions[0]].pinyin
+              : "..."}
+          </Button>
+        </span>
+        <span className="optionButton">
+          <Button
+            className="optionButton"
+            variant="contained"
+            size="large"
+            color="primary"
+            onClick={() => console.log("dsa")}
+          >
+            {gameWords[falseOptions[1]]
+              ? gameWords[falseOptions[1]].pinyin
+              : " ..."}
+          </Button>
+        </span>
+      </div>
+      <div className="bottomOptionsDiv">
+        <span className="optionButton">
+          <Button
+            className="optionButton"
+            variant="contained"
+            size="large"
+            color="primary"
+          >
+            {gameWords[falseOptions[2]]
+              ? gameWords[falseOptions[2]].pinyin
+              : "..."}
+          </Button>
+        </span>
+        <span className="optionButton">
+          <Button
+            className="optionButton"
+            variant="contained"
+            size="large"
+            color="primary"
+          >
+            {gameWords[falseOptions[3]]
+              ? gameWords[falseOptions[3]].pinyin
+              : "..."}
+          </Button>
+        </span>
+      </div>
     </div>
   )
 }

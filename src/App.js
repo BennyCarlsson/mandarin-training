@@ -30,18 +30,17 @@ class App extends Component {
   }
 
   render() {
-    console.log("state: ", this.state)
     return (
       <div className="App">
-        <header className="App-header">
+        <div className="theWordDiv">
           <h1 className="theWord">
             {this.getCurrentWord() && this.getCurrentWord().chinese}
           </h1>
-          <Options
-            gameWords={this.state.gameWords}
-            questionIndex={this.state.questionIndex}
-          />
-        </header>
+        </div>
+        <Options
+          gameWords={this.state.gameWords}
+          questionIndex={this.state.questionIndex}
+        />
       </div>
     )
   }

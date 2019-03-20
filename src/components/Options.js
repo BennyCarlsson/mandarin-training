@@ -21,60 +21,58 @@ const Options = props => {
   return (
     <div className="optionsDiv">
       <div className="topOptionsDiv">
-        <span className="optionButton">
-          <Button
-            className="optionButton"
-            variant="contained"
-            size="large"
-            color="primary"
-            onClick={() => console.log("asd")}
-          >
-            {gameWords[falseOptions[0]]
+        <OptionsButton
+          optionPress={props.optionPress}
+          gameWord={
+            gameWords[falseOptions[0]]
               ? gameWords[falseOptions[0]].pinyin
-              : "..."}
-          </Button>
-        </span>
-        <span className="optionButton">
-          <Button
-            className="optionButton"
-            variant="contained"
-            size="large"
-            color="primary"
-            onClick={() => console.log("dsa")}
-          >
-            {gameWords[falseOptions[1]]
+              : "..."
+          }
+        />
+        <OptionsButton
+          optionPress={props.optionPress}
+          gameWord={
+            gameWords[falseOptions[1]]
               ? gameWords[falseOptions[1]].pinyin
-              : " ..."}
-          </Button>
-        </span>
+              : "..."
+          }
+        />
       </div>
       <div className="bottomOptionsDiv">
-        <span className="optionButton">
-          <Button
-            className="optionButton"
-            variant="contained"
-            size="large"
-            color="primary"
-          >
-            {gameWords[falseOptions[2]]
+        <OptionsButton
+          optionPress={props.optionPress}
+          gameWord={
+            gameWords[falseOptions[2]]
               ? gameWords[falseOptions[2]].pinyin
-              : "..."}
-          </Button>
-        </span>
-        <span className="optionButton">
-          <Button
-            className="optionButton"
-            variant="contained"
-            size="large"
-            color="primary"
-          >
-            {gameWords[falseOptions[3]]
+              : "..."
+          }
+        />
+        <OptionsButton
+          optionPress={props.optionPress}
+          gameWord={
+            gameWords[falseOptions[3]]
               ? gameWords[falseOptions[3]].pinyin
-              : "..."}
-          </Button>
-        </span>
+              : "..."
+          }
+        />
       </div>
     </div>
+  )
+}
+
+const OptionsButton = props => {
+  return (
+    <span className="optionButton">
+      <Button
+        className="optionButton"
+        variant="contained"
+        size="large"
+        color="primary"
+        onClick={props.optionPress}
+      >
+        {props.gameWord}
+      </Button>
+    </span>
   )
 }
 

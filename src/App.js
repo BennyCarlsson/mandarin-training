@@ -22,7 +22,10 @@ class App extends Component {
     this.setState({ questionIndex: questionIndex + 1, currentWord: question })
   }
 
-  handleQuestion = () => {}
+  optionPress = () => {
+    console.log("press")
+    this.setNextQuestion()
+  }
 
   getCurrentWord = () => {
     const { gameWords, questionIndex } = this.state
@@ -40,6 +43,7 @@ class App extends Component {
         <Options
           gameWords={this.state.gameWords}
           questionIndex={this.state.questionIndex}
+          optionPress={this.optionPress}
         />
       </div>
     )

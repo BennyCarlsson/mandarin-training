@@ -4,54 +4,54 @@ import Button from "@material-ui/core/Button"
 
 const Options = props => {
   const { gameWords, questionIndex } = props
-  let falseOptions = []
+  let scrambledOptions = []
 
-  while (falseOptions.length < 4 && gameWords.length > 4) {
+  while (scrambledOptions.length < 4 && gameWords.length > 4) {
     const randomNumber = Math.floor(Math.random() * gameWords.length)
     if (
       randomNumber !== questionIndex &&
-      !falseOptions.includes(randomNumber)
+      !scrambledOptions.includes(randomNumber)
     ) {
-      falseOptions.push(randomNumber)
+      scrambledOptions.push(randomNumber)
     }
   }
 
   const nr = Math.floor(Math.random() * 4)
-  falseOptions[nr] = questionIndex
+  scrambledOptions[nr] = questionIndex
   return (
     <div className="optionsDiv">
       <div className="topOptionsDiv">
         <OptionsButton
-          optionPress={props.optionPress}
+          optionPress={() => props.optionPress(gameWords[scrambledOptions[0]])}
           gameWord={
-            gameWords[falseOptions[0]]
-              ? gameWords[falseOptions[0]].pinyin
+            gameWords[scrambledOptions[0]]
+              ? gameWords[scrambledOptions[0]].pinyin
               : "..."
           }
         />
         <OptionsButton
-          optionPress={props.optionPress}
+          optionPress={() => props.optionPress(gameWords[scrambledOptions[1]])}
           gameWord={
-            gameWords[falseOptions[1]]
-              ? gameWords[falseOptions[1]].pinyin
+            gameWords[scrambledOptions[1]]
+              ? gameWords[scrambledOptions[1]].pinyin
               : "..."
           }
         />
       </div>
       <div className="bottomOptionsDiv">
         <OptionsButton
-          optionPress={props.optionPress}
+          optionPress={() => props.optionPress(gameWords[scrambledOptions[2]])}
           gameWord={
-            gameWords[falseOptions[2]]
-              ? gameWords[falseOptions[2]].pinyin
+            gameWords[scrambledOptions[2]]
+              ? gameWords[scrambledOptions[2]].pinyin
               : "..."
           }
         />
         <OptionsButton
-          optionPress={props.optionPress}
+          optionPress={() => props.optionPress(gameWords[scrambledOptions[3]])}
           gameWord={
-            gameWords[falseOptions[3]]
-              ? gameWords[falseOptions[3]].pinyin
+            gameWords[scrambledOptions[3]]
+              ? gameWords[scrambledOptions[3]].pinyin
               : "..."
           }
         />

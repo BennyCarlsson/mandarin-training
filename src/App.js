@@ -6,7 +6,6 @@ import Options from "./components/Options"
 class App extends Component {
   state = {
     gameWords: [],
-    correctAnswers: [],
     wrongAnswers: [],
     answerOptions: [],
     questionIndex: 0
@@ -22,9 +21,12 @@ class App extends Component {
     this.setState({ questionIndex: questionIndex + 1, currentWord: question })
   }
 
-  optionPress = () => {
-    console.log("press")
-    this.setNextQuestion()
+  optionPress = answerOption => {
+    if (answerOption === this.getCurrentWord()) {
+      this.setNextQuestion()
+    } else {
+      console.log("wrong answer!")
+    }
   }
 
   getCurrentWord = () => {

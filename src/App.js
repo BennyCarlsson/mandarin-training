@@ -3,6 +3,7 @@ import { getWordsRandomized } from "./vocabularyUtils"
 import { scrambleOptions } from "./utils"
 import "./App.css"
 import QuizPage from "./components/QuizPage"
+import { ResultPage } from "./components/ResultPage"
 
 class App extends Component {
   state = {
@@ -49,16 +50,30 @@ class App extends Component {
     return gameWords[questionIndex]
   }
 
+  isGameFinished = () => {
+    return (
+      this.state.gameWords &&
+      this.state.questionIndex >= this.state.gameWords.length
+    )
+  }
+
   render() {
     return (
       <div className="App">
-        <QuizPage
-          getCurrentWord={this.getCurrentWord}
-          answeredWrong={this.state.answeredWrong}
-          gameWords={this.state.gameWords}
-          optionPress={this.optionPress}
-          scrambledOptions={this.state.scrambledOptions}
-        />
+        {this.isGameFinished() ? (
+          <ResultPage
+            wrongAnswers={this.state.wrongAnswers}
+            gameWords={this.state.gameWords}
+          />
+        ) : (
+          <QuizPage
+            getCurrentWord={this.getCurrentWord}
+            answeredWrong={this.state.answeredWrong}
+            gameWords={this.state.gameWords}
+            optionPress={this.optionPress}
+            scrambledOptions={this.state.scrambledOptions}
+          />
+        )}
       </div>
     )
   }

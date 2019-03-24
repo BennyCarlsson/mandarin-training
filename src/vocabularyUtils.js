@@ -1,10 +1,11 @@
 import vocabulary from "./vocabulary"
 
 export const getWordsRandomized = () => {
-  return shuffle(vocabulary.slice())
+  return shuffle(vocabulary.slice(6))
 }
 
 const shuffle = array => {
+  console.log(array)
   var currentIndex = array.length,
     temporaryValue,
     randomIndex

@@ -5,7 +5,7 @@ import TheWord from "./TheWord"
 export default class QuizPage extends Component {
   render() {
     return (
-      <Fragment>
+      <div className="quizPageWrapper">
         <TheWord
           currentWord={this.props.getCurrentWord()}
           answeredWrong={this.props.answeredWrong}
@@ -15,7 +15,7 @@ export default class QuizPage extends Component {
           optionPress={this.props.optionPress}
           scrambledOptions={this.props.scrambledOptions}
         />
-      </Fragment>
+      </div>
     )
   }
 }

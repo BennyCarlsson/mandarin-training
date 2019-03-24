@@ -2,13 +2,27 @@
   background-color: #282c34;
   min-height: 100vh;
   max-height: 100vh;
+  color: white;
+}
+.whiteText {
+  color: white;
+}
+.quizPageWrapper {
+  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
 }
-
+.resultPageWrapper {
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .theWord {
   font-size: 8em;
   margin: 0px;

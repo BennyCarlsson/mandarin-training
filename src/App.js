@@ -1,8 +1,8 @@
 import React, { Component } from "react"
 import { getWordsRandomized } from "./vocabularyUtils"
+import { scrambleOptions } from "./utils"
 import "./App.css"
-import Options from "./components/Options"
-import TheWord from "./components/TheWord"
+import QuizPage from "./components/QuizPage"
 
 class App extends Component {
   state = {
@@ -37,8 +37,10 @@ class App extends Component {
   optionPress = answerOption => {
     if (answerOption === this.getCurrentWord()) {
       this.setNextQuestion()
-    } else {
-      this.setState({ answeredWrong: true })
+    } else if (!this.state.answeredWrong) {
+      let newWrongAnswers = this.state.wrongAnswers
+      newWrongAnswers.push(answerOption)
+      this.setState({ answeredWrong: true, wrongAnswers: newWrongAnswers })
     }
   }
 
@@ -50,11 +52,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <TheWord
-          currentWord={this.getCurrentWord()}
+        <QuizPage
+          getCurrentWord={this.getCurrentWord}
           answeredWrong={this.state.answeredWrong}
-        />
-        <Options
           gameWords={this.state.gameWords}
           optionPress={this.optionPress}
           scrambledOptions={this.state.scrambledOptions}
@@ -62,24 +62,6 @@ class App extends Component {
       </div>
     )
   }
-}
-
-const scrambleOptions = (gameWords, questionIndex) => {
-  let scrambledOptions = []
-
-  while (scrambledOptions.length < 4 && gameWords.length > 4) {
-    const randomNumber = Math.floor(Math.random() * gameWords.length)
-    if (
-      randomNumber !== questionIndex &&
-      !scrambledOptions.includes(randomNumber)
-    ) {
-      scrambledOptions.push(randomNumber)
-    }
-  }
-
-  const nr = Math.floor(Math.random() * 4)
-  scrambledOptions[nr] = questionIndex
-  return scrambledOptions
 }
 
 export default App

@@ -1,3 +1,4 @@
 save wrong answers
 show end result
-extract word from app.js
+replay
+replay only the wrong ones

@@ -65,8 +65,6 @@ class App extends Component {
 }
 
 const scrambleOptions = (gameWords, questionIndex) => {
-  console.log(gameWords)
-  console.log(questionIndex)
   let scrambledOptions = []
 
   while (scrambledOptions.length < 4 && gameWords.length > 4) {

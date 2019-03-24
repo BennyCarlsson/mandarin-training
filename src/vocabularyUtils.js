@@ -1,7 +1,7 @@
 import vocabulary from "./vocabulary"
 
 export const getWordsRandomized = () => {
-  return shuffle(vocabulary.slice(6))
+  return shuffle(vocabulary.slice(5))
 }
 
 const shuffle = array => {

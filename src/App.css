@@ -7,6 +7,9 @@
 .whiteText {
   color: white;
 }
+.progressbar {
+  width: 100%;
+}
 .quizPageWrapper {
   min-height: 100vh;
   max-height: 100vh;

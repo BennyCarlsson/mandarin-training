@@ -23,6 +23,18 @@ class App extends Component {
     })
   }
 
+  replay = () => {
+    const wordsRandomized = getWordsRandomized()
+    this.setState({
+      gameWords: wordsRandomized,
+      scrambledOptions: scrambleOptions(wordsRandomized, 0),
+      wrongAnswers: [],
+      answerOptions: [],
+      questionIndex: 0,
+      answeredWrong: false
+    })
+  }
+
   setNextQuestion = () => {
     const { gameWords, questionIndex } = this.state
     const question = gameWords[questionIndex]
@@ -56,7 +68,12 @@ class App extends Component {
       this.state.questionIndex >= this.state.gameWords.length
     )
   }
-
+  getGameProgress = () => {
+    if (this.state.gameWords && this.state.questionIndex) {
+      return (this.state.questionIndex / this.state.gameWords.length) * 100
+    }
+    return 0
+  }
   render() {
     return (
       <div className="App">
@@ -64,6 +81,7 @@ class App extends Component {
           <ResultPage
             wrongAnswers={this.state.wrongAnswers}
             gameWords={this.state.gameWords}
+            replay={this.replay}
           />
         ) : (
           <QuizPage
@@ -72,6 +90,7 @@ class App extends Component {
             gameWords={this.state.gameWords}
             optionPress={this.optionPress}
             scrambledOptions={this.state.scrambledOptions}
+            progress={this.getGameProgress()}
           />
         )}
       </div>

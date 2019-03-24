@@ -1,3 +1,2 @@
 show all wrong answers
-replay
 replay only the wrong ones

@@ -1,2 +1,3 @@
-correct answer check
+save wrong answers
+show end result
 extract word from app.js

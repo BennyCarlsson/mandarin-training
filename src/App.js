@@ -2,30 +2,43 @@ import React, { Component } from "react"
 import { getWordsRandomized } from "./vocabularyUtils"
 import "./App.css"
 import Options from "./components/Options"
+import TheWord from "./components/TheWord"
 
 class App extends Component {
   state = {
     gameWords: [],
     wrongAnswers: [],
     answerOptions: [],
-    questionIndex: 0
+    scrambledOptions: [],
+    questionIndex: 0,
+    answeredWrong: false
   }
 
   componentDidMount = () => {
-    this.setState({ gameWords: getWordsRandomized() })
+    const wordsRandomized = getWordsRandomized()
+    this.setState({
+      gameWords: wordsRandomized,
+      scrambledOptions: scrambleOptions(wordsRandomized, 0)
+    })
   }
 
   setNextQuestion = () => {
     const { gameWords, questionIndex } = this.state
     const question = gameWords[questionIndex]
-    this.setState({ questionIndex: questionIndex + 1, currentWord: question })
+    const newQuestionIndex = questionIndex + 1
+    this.setState({
+      questionIndex: newQuestionIndex,
+      currentWord: question,
+      answeredWrong: false,
+      scrambledOptions: scrambleOptions(gameWords, newQuestionIndex)
+    })
   }
 
   optionPress = answerOption => {
     if (answerOption === this.getCurrentWord()) {
       this.setNextQuestion()
     } else {
-      console.log("wrong answer!")
+      this.setState({ answeredWrong: true })
     }
   }
 
@@ -37,19 +50,38 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="theWordDiv">
-          <h1 className="theWord">
-            {this.getCurrentWord() && this.getCurrentWord().chinese}
-          </h1>
-        </div>
+        <TheWord
+          currentWord={this.getCurrentWord()}
+          answeredWrong={this.state.answeredWrong}
+        />
         <Options
           gameWords={this.state.gameWords}
-          questionIndex={this.state.questionIndex}
           optionPress={this.optionPress}
+          scrambledOptions={this.state.scrambledOptions}
         />
       </div>
     )
   }
+}
+
+const scrambleOptions = (gameWords, questionIndex) => {
+  console.log(gameWords)
+  console.log(questionIndex)
+  let scrambledOptions = []
+
+  while (scrambledOptions.length < 4 && gameWords.length > 4) {
+    const randomNumber = Math.floor(Math.random() * gameWords.length)
+    if (
+      randomNumber !== questionIndex &&
+      !scrambledOptions.includes(randomNumber)
+    ) {
+      scrambledOptions.push(randomNumber)
+    }
+  }
+
+  const nr = Math.floor(Math.random() * 4)
+  scrambledOptions[nr] = questionIndex
+  return scrambledOptions
 }
 
 export default App

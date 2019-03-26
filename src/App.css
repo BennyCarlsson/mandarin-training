@@ -10,6 +10,12 @@
 .progressbar {
   width: 100%;
 }
+.expansionPanel {
+  width: 100%;
+}
+.listItemText {
+  font-size: 2rem;
+}
 .quizPageWrapper {
   min-height: 100vh;
   max-height: 100vh;
@@ -20,7 +26,6 @@
 }
 .resultPageWrapper {
   min-height: 100vh;
-  max-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react"
+import React, { Component } from "react"
 import Options from "./Options"
 import TheWord from "./TheWord"
 import { withStyles } from "@material-ui/core/styles"

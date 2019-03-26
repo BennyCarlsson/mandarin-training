@@ -1,2 +1,3 @@
 show all wrong answers
 replay only the wrong ones
+add all text

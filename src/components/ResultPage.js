@@ -1,8 +1,9 @@
-import React, { Component } from "react"
-import Typography from "@material-ui/core/Typography"
+import React, { Component, Fragment } from "react"
 import { withTheme } from "@material-ui/core/styles"
 import Fab from "@material-ui/core/Fab"
+import Typography from "@material-ui/core/Typography"
 import Icon from "@material-ui/core/Icon"
+import ListWrongAnswers from "./ListWrongAnswers"
 
 export class ResultPage extends Component {
   render() {
@@ -11,7 +12,7 @@ export class ResultPage extends Component {
         color: "white"
       }
     }
-    const { gameWords, wrongAnswers } = this.props
+    const { gameWords, wrongAnswers, replay, replayIncorrectWords } = this.props
     const numberOfQuestions = gameWords ? gameWords.length : 0
     const numberOfWrongAnswers = wrongAnswers ? wrongAnswers.length : 0
     const numberOfRightAnswers = numberOfQuestions - numberOfWrongAnswers
@@ -32,17 +33,43 @@ export class ResultPage extends Component {
           {numberOfQuestions}
         </Typography>
         <br />
-        <Fab
-          variant="extended"
-          aria-label="replay"
-          onClick={() => this.props.replay()}
-        >
-          <Icon>replay</Icon>
-          <p> Replay</p>
-        </Fab>
+
+        <ReplayButtons
+          replay={replay}
+          replayIncorrectWords={replayIncorrectWords}
+          numberOfWrongAnswers={numberOfWrongAnswers}
+        />
+        <ListWrongAnswers wrongAnswers={wrongAnswers} />
       </div>
     )
   }
+}
+
+const ReplayButtons = props => {
+  return (
+    <Fragment>
+      <Fab
+        variant="extended"
+        aria-label="replay"
+        onClick={() => props.replay()}
+      >
+        <Icon>replay</Icon>
+        <p> Replay</p>
+      </Fab>
+      {props.numberOfWrongAnswers > 0 ? (
+        <Fab
+          variant="extended"
+          aria-label="replay"
+          onClick={() => props.replayIncorrectWords()}
+        >
+          <Icon>replay</Icon>
+          <p> Replay incorrect words ({props.numberOfWrongAnswers})</p>
+        </Fab>
+      ) : (
+        ""
+      )}
+    </Fragment>
+  )
 }
 
 export default withTheme()(ResultPage)

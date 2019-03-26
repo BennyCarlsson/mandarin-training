@@ -5,7 +5,6 @@ export const getWordsRandomized = () => {
 }
 
 const shuffle = array => {
-  console.log(array)
   var currentIndex = array.length,
     temporaryValue,
     randomIndex

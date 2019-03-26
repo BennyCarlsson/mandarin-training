@@ -35,6 +35,19 @@ class App extends Component {
     })
   }
 
+  replayIncorrectWords = () => {
+    const words = this.state.wrongAnswers
+    console.log(words)
+    this.setState({
+      gameWords: words,
+      scrambledOptions: scrambleOptions(words, 0),
+      wrongAnswers: [],
+      answerOptions: [],
+      questionIndex: 0,
+      answeredWrong: false
+    })
+  }
+
   setNextQuestion = () => {
     const { gameWords, questionIndex } = this.state
     const question = gameWords[questionIndex]
@@ -52,7 +65,7 @@ class App extends Component {
       this.setNextQuestion()
     } else if (!this.state.answeredWrong) {
       let newWrongAnswers = this.state.wrongAnswers
-      newWrongAnswers.push(answerOption)
+      newWrongAnswers.push(this.getCurrentWord())
       this.setState({ answeredWrong: true, wrongAnswers: newWrongAnswers })
     }
   }
@@ -82,6 +95,7 @@ class App extends Component {
             wrongAnswers={this.state.wrongAnswers}
             gameWords={this.state.gameWords}
             replay={this.replay}
+            replayIncorrectWords={this.replayIncorrectWords}
           />
         ) : (
           <QuizPage

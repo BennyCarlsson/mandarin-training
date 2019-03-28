@@ -4,6 +4,7 @@ import Fab from "@material-ui/core/Fab"
 import Typography from "@material-ui/core/Typography"
 import Icon from "@material-ui/core/Icon"
 import ListWrongAnswers from "./ListWrongAnswers"
+import Button from "@material-ui/core/Button"
 
 export class ResultPage extends Component {
   render() {
@@ -39,7 +40,11 @@ export class ResultPage extends Component {
           replayIncorrectWords={replayIncorrectWords}
           numberOfWrongAnswers={numberOfWrongAnswers}
         />
-        <ListWrongAnswers wrongAnswers={wrongAnswers} />
+        {numberOfWrongAnswers > 0 ? (
+          <ListWrongAnswers wrongAnswers={wrongAnswers} />
+        ) : (
+          ""
+        )}
       </div>
     )
   }
@@ -48,14 +53,6 @@ export class ResultPage extends Component {
 const ReplayButtons = props => {
   return (
     <Fragment>
-      <Fab
-        variant="extended"
-        aria-label="replay"
-        onClick={() => props.replay()}
-      >
-        <Icon>replay</Icon>
-        <p> Replay</p>
-      </Fab>
       {props.numberOfWrongAnswers > 0 ? (
         <Fab
           variant="extended"
@@ -63,11 +60,20 @@ const ReplayButtons = props => {
           onClick={() => props.replayIncorrectWords()}
         >
           <Icon>replay</Icon>
-          <p> Replay incorrect words ({props.numberOfWrongAnswers})</p>
+          <p>Incorrect words ({props.numberOfWrongAnswers})</p>
         </Fab>
       ) : (
         ""
       )}
+      <Button
+        size="medium"
+        color="inherit"
+        aria-label="replay"
+        onClick={() => props.replay()}
+      >
+        <Icon>arrow_back</Icon>
+        <p> Replay All</p>
+      </Button>
     </Fragment>
   )
 }

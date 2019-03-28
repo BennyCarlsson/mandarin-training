@@ -1,42 +1,173 @@
-[
-  {
-    "chinese": "你好",
-    "pinyin": "Nǐ hǎo",
-    "english": "hi"
-  },
-  {
-    "chinese": "大",
-    "pinyin": "dà",
-    "english": "big"
-  },
-  {
-    "chinese": "请",
-    "pinyin": "qing",
-    "english": "to ask"
-  },
-  {
-    "chinese": "好",
-    "pinyin": "hâo",
-    "english": "good; fine;"
-  },
-  {
-    "chinese": "问",
-    "pinyin": "wèn ",
-    "english": "please"
-  },
-  {
-    "chinese": "贵",
-    "pinyin": "guì",
-    "english": "honorable; expensive"
-  },
-  {
-    "chinese": "姓",
-    "pinyin": "xìng",
-    "english": "(one’s) surname is...; to be surnamed; surname"
-  },
-  {
-    "chinese": "我",
-    "pinyin": "wǒ",
-    "english": "I; Me"
-  }
-]
+{
+  "chapter1": [
+    {
+      "chinese": "你好",
+      "pinyin": "Nǐ hǎo",
+      "english": "hi"
+    },
+    {
+      "chinese": "大",
+      "pinyin": "dà",
+      "english": "big"
+    },
+    {
+      "chinese": "请",
+      "pinyin": "qing",
+      "english": "to ask"
+    }
+  ],
+  "chapter2": [
+    {
+      "chinese": "好",
+      "pinyin": "hâo",
+      "english": "good; fine;"
+    },
+    {
+      "chinese": "问",
+      "pinyin": "wèn ",
+      "english": "please"
+    },
+    {
+      "chinese": "贵",
+      "pinyin": "guì",
+      "english": "honorable; expensive"
+    },
+    {
+      "chinese": "姓",
+      "pinyin": "xìng",
+      "english": "(one’s) surname is...; to be surnamed; surname"
+    },
+    {
+      "chinese": "我",
+      "pinyin": "wǒ",
+      "english": "I; Me"
+    }
+  ],
+  "chapter12": [
+    {
+      "chinese": "刚才",
+      "pinyin": "gāngcāi",
+      "english": "just now"
+    },
+    {
+      "chinese": "钥匙",
+      "pinyin": "yàoshi",
+      "english": "key"
+    },
+    {
+      "chinese": "书店",
+      "pinyin": "shūdiàn",
+      "english": "bookstore"
+    },
+    {
+      "chinese": "银行",
+      "pinyin": "yínháng",
+      "english": "bank"
+    },
+    {
+      "chinese": "教室",
+      "pinyin": "jiàoshì",
+      "english": "classroom"
+    },
+    {
+      "chinese": "桌子",
+      "pinyin": "zhuōzi",
+      "english": "desk, table"
+    },
+    {
+      "chinese": "口袋",
+      "pinyin": "kǒudai",
+      "english": "pocket"
+    },
+    {
+      "chinese": "包",
+      "pinyin": "bāo",
+      "english": "bag"
+    },
+    {
+      "chinese": "外文",
+      "pinyin": "wàiwén",
+      "english": "foreign language"
+    },
+    {
+      "chinese": "自己",
+      "pinyin": "zìjǐ",
+      "english": "self"
+    },
+    {
+      "chinese": "上",
+      "pinyin": "shàng",
+      "english": "on (the table)"
+    },
+    {
+      "chinese": "下",
+      "pinyin": "xià",
+      "english": "under (the table)"
+    },
+    {
+      "chinese": "旁边",
+      "pinyin": "pángbiān",
+      "english": "beside"
+    },
+    {
+      "chinese": "对面",
+      "pinyin": "duìmiàn",
+      "english": "opposite"
+    },
+    {
+      "chinese": "说",
+      "pinyin": "shuō",
+      "english": "say"
+    },
+    {
+      "chinese": "丢",
+      "pinyin": "diū",
+      "english": "lose, be lost"
+    },
+    {
+      "chinese": "锁",
+      "pinyin": "suǒ",
+      "english": "say"
+    },
+    {
+      "chinese": "找到",
+      "pinyin": "zhǎodào",
+      "english": "find"
+    },
+    {
+      "chinese": "糊涂",
+      "pinyin": "hútu",
+      "english": "confused, muddled"
+    },
+    {
+      "chinese": "糟糕",
+      "pinyin": "zāogāo",
+      "english": "bad, terrible"
+    },
+    {
+      "chinese": "就",
+      "pinyin": "jiù",
+      "english": "just"
+    },
+    {
+      "chinese": "快",
+      "pinyin": "kuài",
+      "english": "urge sb to do sth as soon as possible"
+    },
+    {
+      "chinese": "真",
+      "pinyin": "zhēn",
+      "english": "really, truly"
+    },
+    {
+      "chinese": "那",
+      "pinyin": "nà",
+      "english": "then; in that case"
+    },
+    {
+      "chinese": "啊",
+      "pinyin": "a",
+      "english": "used to tone up what is being said"
+    }
+  ]
+}

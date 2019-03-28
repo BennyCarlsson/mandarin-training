@@ -1,7 +1,10 @@
 import vocabulary from "./vocabulary"
 
-export const getWordsRandomized = () => {
-  return shuffle(vocabulary.slice(5))
+export const getWordsRandomized = (chapters = ["chapter12"]) => {
+  let wordList = vocabulary
+  let words = []
+  chapters.forEach(chapter => (words = words.concat(wordList[chapter])))
+  return shuffle(words.slice())
 }
 
 const shuffle = array => {

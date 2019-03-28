@@ -49,10 +49,16 @@ class Options extends Component {
   }
 }
 
+const style = {
+  textTransform: "none",
+  fontSize: "1.5rem"
+}
+
 const OptionsButton = props => {
   return (
     <span className="optionButton">
       <Button
+        style={style}
         className="optionButton"
         variant="contained"
         size="large"

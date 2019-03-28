@@ -43,6 +43,38 @@
       "english": "I; Me"
     }
   ],
+  "chapter11": [
+    {
+      "chinese": "上",
+      "pinyin": "shàng",
+      "english": "last"
+    },
+    {
+      "chinese": "下",
+      "pinyin": "xià",
+      "english": "next"
+    },
+    {
+      "chinese": "告诉",
+      "pinyin": "gàosu",
+      "english": "tell"
+    },
+    {
+      "chinese": "忘",
+      "pinyin": "wàng",
+      "english": "forget"
+    },
+    {
+      "chinese": "听说",
+      "pinyin": "tīngshuō",
+      "english": "it is said"
+    },
+    {
+      "chinese": "",
+      "pinyin": "",
+      "english": ""
+    }
+  ],
   "chapter12": [
     {
       "chinese": "刚才",

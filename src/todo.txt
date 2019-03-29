@@ -1,8 +1,8 @@
-not showing options if less then x words
 choose what chapter
 choose all chapters
+not showing options if less then x words
 better feedback when answering wrong
 show english translation?
 choose 20 random words (quick play)
-style result page!
-add all text
+add all words
+flashcards

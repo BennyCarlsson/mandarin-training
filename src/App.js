@@ -4,6 +4,7 @@ import { scrambleOptions } from "./utils"
 import "./App.css"
 import QuizPage from "./components/QuizPage"
 import { ResultPage } from "./components/ResultPage"
+import BetaVersionTag from "./components/BetaVersionTag"
 
 class App extends Component {
   state = {
@@ -90,6 +91,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <BetaVersionTag />
         {this.isGameFinished() ? (
           <ResultPage
             wrongAnswers={this.state.wrongAnswers}

@@ -5,6 +5,7 @@ import "./App.css"
 import QuizPage from "./components/QuizPage"
 import { ResultPage } from "./components/ResultPage"
 import BetaVersionTag from "./components/BetaVersionTag"
+import ChooseChapter from "./components/ChooseChapters"
 
 class App extends Component {
   state = {
@@ -13,7 +14,8 @@ class App extends Component {
     answerOptions: [],
     scrambledOptions: [],
     questionIndex: 0,
-    answeredWrong: false
+    answeredWrong: false,
+    showStartPage: false
   }
 
   componentDidMount = () => {
@@ -89,10 +91,13 @@ class App extends Component {
     return 0
   }
   render() {
+    // Game logic here works but is a mess Todo
     return (
       <div className="App">
         <BetaVersionTag />
-        {this.isGameFinished() ? (
+        {this.state.showStartPage ? (
+          <ChooseChapter />
+        ) : this.isGameFinished() ? (
           <ResultPage
             wrongAnswers={this.state.wrongAnswers}
             gameWords={this.state.gameWords}

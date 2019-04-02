@@ -201,5 +201,137 @@
       "pinyin": "a",
       "english": "used to tone up what is being said"
     }
+  ],
+  "chapter15": [
+    {
+      "chinese": "一般",
+      "pinyin": "yìbān",
+      "english": "generally"
+    },
+    {
+      "chinese": "总是",
+      "pinyin": "zǒngshì",
+      "english": "always"
+    },
+    {
+      "chinese": "常常",
+      "pinyin": "chàngchàng",
+      "english": "often"
+    },
+    {
+      "chinese": "有时候",
+      "pinyin": "yǒu (de) shíhhou",
+      "english": "sometimes"
+    },
+    {
+      "chinese": "很少",
+      "pinyin": "hěnshǎo",
+      "english": "seldom"
+    },
+    {
+      "chinese": "从来不/没",
+      "pinyin": "cónglái bù / méi",
+      "english": "never"
+    },
+    {
+      "chinese": "逛街",
+      "pinyin": "guàng jiē",
+      "english": "stroll around the streets"
+    },
+    {
+      "chinese": "听音乐",
+      "pinyin": "tīng yīnyuè",
+      "english": "listen to music"
+    },
+    {
+      "chinese": "听",
+      "pinyin": "tīng",
+      "english": "listen (to)"
+    },
+    {
+      "chinese": "音乐",
+      "pinyin": "yīnyù",
+      "english": "music"
+    },
+    {
+      "chinese": "聊天儿",
+      "pinyin": "liáo tiānr",
+      "english": "chat"
+    },
+    {
+      "chinese": "跳舞",
+      "pinyin": "tiào wǔ",
+      "english": "dance"
+    },
+    {
+      "chinese": "跳",
+      "pinyin": "tiào",
+      "english": "jump"
+    },
+    {
+      "chinese": "唱歌",
+      "pinyin": "chàng gē",
+      "english": "sing (a song)"
+    },
+    {
+      "chinese": "打车",
+      "pinyin": "dǎ chē",
+      "english": "take taxi"
+    },
+    {
+      "chinese": "骑",
+      "pinyin": "qí",
+      "english": "ride"
+    },
+    {
+      "chinese": "走着去",
+      "pinyin": "zǒuzhe qù",
+      "english": "go on foot"
+    },
+    {
+      "chinese": "开",
+      "pinyin": "kāi",
+      "english": "open"
+    },
+    {
+      "chinese": "请",
+      "pinyin": "qǐng",
+      "english": "treat"
+    },
+    {
+      "chinese": "附近",
+      "pinyin": "fùjìn",
+      "english": "neighborhood"
+    },
+    {
+      "chinese": "歌厅",
+      "pinyin": "gētīng",
+      "english": "KTV"
+    },
+    {
+      "chinese": "舞厅",
+      "pinyin": "wǔtīng",
+      "english": "ballroom, dance hall"
+    },
+    {
+      "chinese": "酒吧",
+      "pinyin": "jiǔbā",
+      "english": "bar"
+    },
+    {
+      "chinese": "以前",
+      "pinyin": "yǐqián",
+      "english": "before"
+    },
+    {
+      "chinese": "以后",
+      "pinyin": "yǐhòu",
+      "english": "late, in the future, after"
+    },
+    {
+      "chinese": "过",
+      "pinyin": "guo",
+      "english": "used after a word to indicate past action or experience"
+    }
   ]
 }

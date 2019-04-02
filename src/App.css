@@ -78,7 +78,7 @@
 }
 
 .betaTag {
-  position: absolute;
+  position: fixed;
   background-color: #b53f3f;
   right: -60px;
   padding: 5px;
@@ -93,4 +93,26 @@
 }
 .versionNr {
   font-size: 10px;
+}
+
+.checkBoxWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.checkBoxAndLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chooseChapterWrapper {
+}
+.pickChapterTitle {
+  display: flex;
+  justify-content: center;
+}
+.playButton {
+  display: flex;
+  justify-content: center;
 }

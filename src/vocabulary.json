@@ -220,7 +220,7 @@
     },
     {
       "chinese": "有时候",
-      "pinyin": "yǒu (de) shíhhou",
+      "pinyin": "yǒu shíhou",
       "english": "sometimes"
     },
     {
@@ -229,8 +229,13 @@
       "english": "seldom"
     },
     {
-      "chinese": "从来不/没",
-      "pinyin": "cónglái bù / méi",
+      "chinese": "从来没",
+      "pinyin": "cónglái méi",
+      "english": "never"
+    },
+    {
+      "chinese": "从来不",
+      "pinyin": "cónglái bù",
       "english": "never"
     },
     {

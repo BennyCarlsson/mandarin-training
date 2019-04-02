@@ -36,6 +36,14 @@
   margin: 0px;
   padding: 0px;
   text-shadow: 3px 5px 7px black;
+  font-weight: 300;
+}
+.wrong-pinyin {
+  color: red;
+  font-size: 20px;
+}
+.wrong-eng {
+  color: red;
 }
 .theWordDiv {
   flex: 1;
@@ -80,7 +88,7 @@
 .betaTag {
   position: fixed;
   background-color: #b53f3f;
-  right: -60px;
+  right: -55px;
   padding: 5px;
   transform: rotate(45deg);
   width: 200px;
@@ -89,7 +97,7 @@
   box-shadow: 0 1px 3px 1px #17191d;
 }
 .beta {
-  padding-left: 33px;
+  padding-left: 50px;
 }
 .versionNr {
   font-size: 10px;

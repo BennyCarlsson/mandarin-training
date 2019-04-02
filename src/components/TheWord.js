@@ -6,8 +6,11 @@ const TheWord = props => {
       <h1 className="theWord">
         {props.currentWord && props.currentWord.chinese}
       </h1>
-      <span>
+      <span className="wrong-pinyin">
         {props.answeredWrong && props.currentWord && props.currentWord.pinyin}
+      </span>
+      <span className="wrong-eng">
+        {props.answeredWrong && props.currentWord && props.currentWord.english}
       </span>
     </div>
   )

@@ -1,8 +1,8 @@
+add data on words if long or not
 choose 20 random words (quick play)
 add all words
-flashcards?
+more style
 
-feedback:
-add data on words how many words it includes
+if time:
+flashcards?
 add data on word words to match e.g hen, yi, etc.
-add data on words if long or not

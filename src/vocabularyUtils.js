@@ -1,6 +1,6 @@
 import vocabulary from "./vocabulary"
 
-export const getWordsRandomized = (chapters = ["chapter15"]) => {
+export const getWordsRandomized = (chapters = ["chapter1"]) => {
   let wordList = vocabulary
   let words = []
   chapters.forEach(chapter => (words = words.concat(wordList[chapter])))

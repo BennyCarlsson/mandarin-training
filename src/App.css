@@ -103,24 +103,22 @@
   font-size: 10px;
 }
 
-.checkBoxWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.checkBoxAndLabel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.chooseChapterWrapper {
-}
 .pickChapterTitle {
   display: flex;
   justify-content: center;
+  padding-top: 45px;
 }
-.playButton {
+
+.chooseChapter {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+.test {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.paper {
+  flex: 1;
 }

@@ -1,353 +1,75 @@
-import React, { useState } from "react"
-import Checkbox from "@material-ui/core/Checkbox"
+import React from "react"
 import Typography from "@material-ui/core/Typography"
 import { withStyles } from "@material-ui/core/styles"
-import blue from "@material-ui/core/colors/blue"
-import Icon from "@material-ui/core/Icon"
-import Fab from "@material-ui/core/Fab"
+import Button from "@material-ui/core/Button"
+import Paper from "@material-ui/core/Paper"
 
 const styles = {
-  root: {
-    color: blue[800],
-    "&$checked": {
-      color: blue[700]
-    }
-  },
   primaryColor: {
     color: "white"
   },
-  checked: {}
+  button: { marginBottom: "8px" }
 }
 
 const ChooseChapter = props => {
-  const [checkedA, setCheckedA] = useState(false)
-  const [checked12, setChecked12] = useState(true)
-  const { classes } = props
+  const { classes, startChapter } = props
 
   return (
     <div className="chooseChapterWrapper">
       <div className="pickChapterTitle">
         <Typography style={styles.primaryColor} variant="display1" gutterBottom>
-          Pick Chapters
+          Level A Chinese Quize
         </Typography>
       </div>
-      <div className="checkBoxWrapper">
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 1
-          </Typography>
-        </div>
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 2
-          </Typography>
-        </div>
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 3
-          </Typography>
-        </div>
-      </div>
-      <div className="checkBoxWrapper">
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 4
-          </Typography>
-        </div>
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 5
-          </Typography>
-        </div>
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 6
-          </Typography>
-        </div>
-      </div>
-      <div className="checkBoxWrapper">
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 7
-          </Typography>
-        </div>
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 8
-          </Typography>
-        </div>
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 9
-          </Typography>
-        </div>
-      </div>
-      <div className="checkBoxWrapper">
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 10
-          </Typography>
-        </div>
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 11
-          </Typography>
-        </div>
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            checked={checked12}
-            onChange={() => setChecked12(!checked12)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 12
-          </Typography>
-        </div>
-      </div>
-      <div className="checkBoxWrapper">
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 13
-          </Typography>
-        </div>
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 14
-          </Typography>
-        </div>
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 15
-          </Typography>
-        </div>
-      </div>
-      <div className="checkBoxWrapper">
-        <div className="checkBoxAndLabel">
-          <Checkbox
-            disabled
-            checked={checkedA}
-            onChange={() => setCheckedA(!checkedA)}
-            value="checkedA"
-            color="primary"
-            classes={{
-              root: classes.root,
-              checked: classes.checked
-            }}
-            icon={<Icon fontSize="large">check_box_outline_blank</Icon>}
-            checkedIcon={<Icon fontSize="large">check_box</Icon>}
-          />
-          <Typography style={styles.primaryColor} variant="subtitle1">
-            Chap. 16
-          </Typography>
-        </div>
-      </div>
-      <div className="playButton">
-        <Fab
-          variant="extended"
-          color="primary"
+      <div className="chooseChapter">
+        <Button
+          variant="contained"
           size="large"
-          aria-label="Play"
-          onClick={() => start()}
+          color="primary"
+          className={classes.button}
+          onClick={() => startChapter("chapter1")}
         >
-          <Icon>play_arrow</Icon>
-          <p>Play</p>
-        </Fab>
+          Chapter 1
+        </Button>
+        <Button
+          variant="contained"
+          size="large"
+          color="primary"
+          className={classes.button}
+          onClick={() => startChapter("chapter2")}
+        >
+          Chapter 2
+        </Button>
+        <Button
+          variant="contained"
+          size="large"
+          color="primary"
+          className={classes.button}
+          onClick={() => startChapter("chapter11")}
+        >
+          Chapter 11
+        </Button>
+        <Button
+          variant="contained"
+          size="large"
+          color="primary"
+          className={classes.button}
+          onClick={() => startChapter("chapter12")}
+        >
+          Chapter 12
+        </Button>
+        <Button
+          variant="contained"
+          size="large"
+          color="primary"
+          className={classes.button}
+          onClick={() => startChapter("chapter15")}
+        >
+          Chapter 15
+        </Button>
       </div>
     </div>
   )
-}
-
-const start = () => {
-  console.log("hi")
 }
 
 export default withStyles(styles)(ChooseChapter)

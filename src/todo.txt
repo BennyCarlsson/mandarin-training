@@ -2,10 +2,9 @@ choose what chapter
 choose all chapters
 not showing options if less then x words (solve by taking pinyin from all words not chapter wise)
 better feedback when answering wrong
-show english translation?
 choose 20 random words (quick play)
 add all words
-flashcards
+flashcards?
 
 feedback:
 add data on words how many words it includes

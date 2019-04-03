@@ -15,15 +15,7 @@ class App extends Component {
     scrambledOptions: [],
     questionIndex: 0,
     answeredWrong: false,
-    showStartPage: false
-  }
-
-  componentDidMount = () => {
-    const wordsRandomized = getWordsRandomized()
-    this.setState({
-      gameWords: wordsRandomized,
-      scrambledOptions: scrambleOptions(wordsRandomized, 0)
-    })
+    showStartPage: true
   }
 
   replay = () => {
@@ -34,13 +26,13 @@ class App extends Component {
       wrongAnswers: [],
       answerOptions: [],
       questionIndex: 0,
-      answeredWrong: false
+      answeredWrong: false,
+      showStartPage: true
     })
   }
 
   replayIncorrectWords = () => {
     const words = this.state.wrongAnswers
-    console.log(words)
     this.setState({
       gameWords: words,
       scrambledOptions: scrambleOptions(words, 0),
@@ -90,13 +82,23 @@ class App extends Component {
     }
     return 0
   }
+
+  startChapter = chapter => {
+    const wordsRandomized = getWordsRandomized([chapter])
+    this.setState({
+      gameWords: wordsRandomized,
+      scrambledOptions: scrambleOptions(wordsRandomized, 0),
+      showStartPage: false
+    })
+  }
+
   render() {
     // Game logic here works but is a mess Todo
     return (
       <div className="App">
         <BetaVersionTag />
         {this.state.showStartPage ? (
-          <ChooseChapter />
+          <ChooseChapter startChapter={this.startChapter} />
         ) : this.isGameFinished() ? (
           <ResultPage
             wrongAnswers={this.state.wrongAnswers}

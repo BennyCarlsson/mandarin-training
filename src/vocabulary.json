@@ -3,340 +3,400 @@
     {
       "chinese": "你好",
       "pinyin": "Nǐ hǎo",
-      "english": "hi"
+      "english": "hi",
+      "wordCount": 2
     },
     {
       "chinese": "大",
       "pinyin": "dà",
-      "english": "big"
+      "english": "big",
+      "wordCount": 1
     },
     {
       "chinese": "请",
       "pinyin": "qing",
-      "english": "to ask"
+      "english": "to ask",
+      "wordCount": 1
     }
   ],
   "chapter2": [
     {
       "chinese": "好",
       "pinyin": "hâo",
-      "english": "good; fine;"
+      "english": "good; fine;",
+      "wordCount": 1
     },
     {
       "chinese": "问",
       "pinyin": "wèn ",
-      "english": "please"
+      "english": "please",
+      "wordCount": 1
     },
     {
       "chinese": "贵",
       "pinyin": "guì",
-      "english": "honorable; expensive"
+      "english": "honorable; expensive",
+      "wordCount": 1
     },
     {
       "chinese": "姓",
       "pinyin": "xìng",
-      "english": "(one’s) surname is...; to be surnamed; surname"
+      "english": "(one’s) surname is...; to be surnamed; surname",
+      "wordCount": 1
     },
     {
       "chinese": "我",
       "pinyin": "wǒ",
-      "english": "I; Me"
+      "english": "I; Me",
+      "wordCount": 1
     }
   ],
   "chapter11": [
     {
       "chinese": "上",
       "pinyin": "shàng",
-      "english": "last"
+      "english": "last",
+      "wordCount": 1
     },
     {
       "chinese": "下",
       "pinyin": "xià",
-      "english": "next"
+      "english": "next",
+      "wordCount": 1
     },
     {
       "chinese": "告诉",
       "pinyin": "gàosu",
-      "english": "tell"
+      "english": "tell",
+      "wordCount": 2
     },
     {
       "chinese": "忘",
       "pinyin": "wàng",
-      "english": "forget"
+      "english": "forget",
+      "wordCount": 1
     },
     {
       "chinese": "听说",
       "pinyin": "tīngshuō",
-      "english": "it is said"
-    },
-    {
-      "chinese": "",
-      "pinyin": "",
-      "english": ""
+      "english": "it is said",
+      "wordCount": 2
     }
   ],
   "chapter12": [
     {
       "chinese": "刚才",
       "pinyin": "gāngcái",
-      "english": "just now"
+      "english": "just now",
+      "wordCount": 2
     },
     {
       "chinese": "钥匙",
       "pinyin": "yàoshi",
-      "english": "key"
+      "english": "key",
+      "wordCount": 2
     },
     {
       "chinese": "书店",
       "pinyin": "shūdiàn",
-      "english": "bookstore"
+      "english": "bookstore",
+      "wordCount": 2
     },
     {
       "chinese": "银行",
       "pinyin": "yínháng",
-      "english": "bank"
+      "english": "bank",
+      "wordCount": 2
     },
     {
       "chinese": "教室",
       "pinyin": "jiàoshì",
-      "english": "classroom"
+      "english": "classroom",
+      "wordCount": 2
     },
     {
       "chinese": "桌子",
       "pinyin": "zhuōzi",
-      "english": "desk, table"
+      "english": "desk, table",
+      "wordCount": 2
     },
     {
       "chinese": "口袋",
       "pinyin": "kǒudai",
-      "english": "pocket"
+      "english": "pocket",
+      "wordCount": 2
     },
     {
       "chinese": "包",
       "pinyin": "bāo",
-      "english": "bag"
+      "english": "bag",
+      "wordCount": 1
     },
     {
       "chinese": "外文",
       "pinyin": "wàiwén",
-      "english": "foreign language"
+      "english": "foreign language",
+      "wordCount": 2
     },
     {
       "chinese": "自己",
       "pinyin": "zìjǐ",
-      "english": "self"
+      "english": "self",
+      "wordCount": 2
     },
     {
       "chinese": "上",
       "pinyin": "shàng",
-      "english": "on (the table)"
+      "english": "on (the table)",
+      "wordCount": 1
     },
     {
       "chinese": "下",
       "pinyin": "xià",
-      "english": "under (the table)"
+      "english": "under (the table)",
+      "wordCount": 1
     },
     {
       "chinese": "旁边",
       "pinyin": "pángbiān",
-      "english": "beside"
+      "english": "beside",
+      "wordCount": 2
     },
     {
       "chinese": "对面",
       "pinyin": "duìmiàn",
-      "english": "opposite"
+      "english": "opposite",
+      "wordCount": 2
     },
     {
       "chinese": "说",
       "pinyin": "shuō",
-      "english": "say"
+      "english": "say",
+      "wordCount": 1
     },
     {
       "chinese": "丢",
       "pinyin": "diū",
-      "english": "lose, be lost"
+      "english": "lose, be lost",
+      "wordCount": 1
     },
     {
       "chinese": "锁",
       "pinyin": "suǒ",
-      "english": "say"
+      "english": "say",
+      "wordCount": 1
     },
     {
       "chinese": "找到",
       "pinyin": "zhǎodào",
-      "english": "find"
+      "english": "find",
+      "wordCount": 2
     },
     {
       "chinese": "糊涂",
       "pinyin": "hútu",
-      "english": "confused, muddled"
+      "english": "confused, muddled",
+      "wordCount": 2
     },
     {
       "chinese": "糟糕",
       "pinyin": "zāogāo",
-      "english": "bad, terrible"
+      "english": "bad, terrible",
+      "wordCount": 2
     },
     {
       "chinese": "就",
       "pinyin": "jiù",
-      "english": "just"
+      "english": "just",
+      "wordCount": 1
     },
     {
       "chinese": "快",
       "pinyin": "kuài",
-      "english": "urge sb to do sth as soon as possible"
+      "english": "urge sb to do sth as soon as possible",
+      "wordCount": 1
     },
     {
       "chinese": "真",
       "pinyin": "zhēn",
-      "english": "really, truly"
+      "english": "really, truly",
+      "wordCount": 1
     },
     {
       "chinese": "那",
       "pinyin": "nà",
-      "english": "then; in that case"
+      "english": "then; in that case",
+      "wordCount": 1
     },
     {
       "chinese": "啊",
       "pinyin": "a",
-      "english": "used to tone up what is being said"
+      "english": "used to tone up what is being said",
+      "wordCount": 1
     }
   ],
   "chapter15": [
     {
       "chinese": "一般",
       "pinyin": "yìbān",
-      "english": "generally"
+      "english": "generally",
+      "wordCount": 2
     },
     {
       "chinese": "总是",
       "pinyin": "zǒngshì",
-      "english": "always"
+      "english": "always",
+      "wordCount": 2
     },
     {
       "chinese": "常常",
       "pinyin": "chàngchàng",
-      "english": "often"
+      "english": "often",
+      "wordCount": 2
     },
     {
       "chinese": "有时候",
       "pinyin": "yǒu shíhou",
-      "english": "sometimes"
+      "english": "sometimes",
+      "wordCount": 3
     },
     {
       "chinese": "很少",
       "pinyin": "hěnshǎo",
-      "english": "seldom"
+      "english": "seldom",
+      "wordCount": 2
     },
     {
       "chinese": "从来没",
       "pinyin": "cónglái méi",
-      "english": "never"
+      "english": "never",
+      "wordCount": 3
     },
     {
       "chinese": "从来不",
       "pinyin": "cónglái bù",
-      "english": "never"
+      "english": "never",
+      "wordCount": 3
     },
     {
       "chinese": "逛街",
       "pinyin": "guàng jiē",
-      "english": "stroll around the streets"
+      "english": "stroll around the streets",
+      "wordCount": 2
     },
     {
       "chinese": "听音乐",
       "pinyin": "tīng yīnyuè",
-      "english": "listen to music"
+      "english": "listen to music",
+      "wordCount": 3
     },
     {
       "chinese": "听",
       "pinyin": "tīng",
-      "english": "listen (to)"
+      "english": "listen (to)",
+      "wordCount": 1
     },
     {
       "chinese": "音乐",
       "pinyin": "yīnyuè",
-      "english": "music"
+      "english": "music",
+      "wordCount": 2
     },
     {
       "chinese": "聊天儿",
       "pinyin": "liáo tiānr",
-      "english": "chat"
+      "english": "chat",
+      "wordCount": 3
     },
     {
       "chinese": "跳舞",
       "pinyin": "tiào wǔ",
-      "english": "dance"
+      "english": "dance",
+      "wordCount": 2
     },
     {
       "chinese": "跳",
       "pinyin": "tiào",
-      "english": "jump"
+      "english": "jump",
+      "wordCount": 1
     },
     {
       "chinese": "唱歌",
       "pinyin": "chàng gē",
-      "english": "sing (a song)"
+      "english": "sing (a song)",
+      "wordCount": 2
     },
     {
       "chinese": "打车",
       "pinyin": "dǎ chē",
-      "english": "take taxi"
+      "english": "take taxi",
+      "wordCount": 2
     },
     {
       "chinese": "骑",
       "pinyin": "qí",
-      "english": "ride"
+      "english": "ride",
+      "wordCount": 1
     },
     {
       "chinese": "走着去",
       "pinyin": "zǒuzhe qù",
-      "english": "go on foot"
+      "english": "go on foot",
+      "wordCount": 3
     },
     {
       "chinese": "开",
       "pinyin": "kāi",
-      "english": "open"
+      "english": "open",
+      "wordCount": 1
     },
     {
       "chinese": "请",
       "pinyin": "qǐng",
-      "english": "treat"
+      "english": "treat",
+      "wordCount": 1
     },
     {
       "chinese": "附近",
       "pinyin": "fùjìn",
-      "english": "neighborhood"
+      "english": "neighborhood",
+      "wordCount": 2
     },
     {
       "chinese": "歌厅",
       "pinyin": "gētīng",
-      "english": "KTV"
+      "english": "KTV",
+      "wordCount": 2
     },
     {
       "chinese": "舞厅",
       "pinyin": "wǔtīng",
-      "english": "ballroom, dance hall"
+      "english": "ballroom, dance hall",
+      "wordCount": 2
     },
     {
       "chinese": "酒吧",
       "pinyin": "jiǔbā",
-      "english": "bar"
+      "english": "bar",
+      "wordCount": 2
     },
     {
       "chinese": "以前",
       "pinyin": "yǐqián",
-      "english": "before"
+      "english": "before",
+      "wordCount": 2
     },
     {
       "chinese": "以后",
       "pinyin": "yǐhòu",
-      "english": "late, in the future, after"
+      "english": "late, in the future, after",
+      "wordCount": 2
     },
     {
       "chinese": "过",
       "pinyin": "guo",
-      "english": "used after a word to indicate past action or experience"
+      "english": "used after a word to indicate past action or experience",
+      "wordCount": 1
     }
   ]
 }

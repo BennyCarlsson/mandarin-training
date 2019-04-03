@@ -28,14 +28,15 @@ const shuffle = array => {
 }
 
 export const scrambleOptions = rightOptionWord => {
+  if (!rightOptionWord) return []
   const gameWords = getAllWords()
   let scrambledOptions = []
-
   while (scrambledOptions.length < 4 && gameWords.length > 4) {
     const randomNumber = Math.floor(Math.random() * gameWords.length)
     if (
       gameWords[randomNumber] !== rightOptionWord &&
-      !scrambledOptions.includes(gameWords[randomNumber])
+      !scrambledOptions.includes(gameWords[randomNumber]) &&
+      gameWords[randomNumber].wordCount === rightOptionWord.wordCount
     ) {
       scrambledOptions.push(gameWords[randomNumber])
     }

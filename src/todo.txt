@@ -1,6 +1,3 @@
-not showing options if less then x words (solve by taking pinyin from all words not chapter wise)
-pinyin from all words not chapter wise
-
 choose 20 random words (quick play)
 add all words
 flashcards?

@@ -4,44 +4,27 @@ import Button from "@material-ui/core/Button"
 
 class Options extends Component {
   render() {
-    const { gameWords, optionPress, scrambledOptions } = this.props
-
+    const { optionPress, scrambledOptions } = this.props
     return (
       <div className="optionsDiv">
         <div className="topOptionsDiv">
           <OptionsButton
-            optionPress={() => optionPress(gameWords[scrambledOptions[0]])}
-            gameWord={
-              gameWords[scrambledOptions[0]]
-                ? gameWords[scrambledOptions[0]].pinyin
-                : "..."
-            }
+            optionPress={() => optionPress(scrambledOptions[0])}
+            gameWord={scrambledOptions[0] ? scrambledOptions[0].pinyin : "..."}
           />
           <OptionsButton
-            optionPress={() => optionPress(gameWords[scrambledOptions[1]])}
-            gameWord={
-              gameWords[scrambledOptions[1]]
-                ? gameWords[scrambledOptions[1]].pinyin
-                : "..."
-            }
+            optionPress={() => optionPress(scrambledOptions[1])}
+            gameWord={scrambledOptions[1] ? scrambledOptions[1].pinyin : "..."}
           />
         </div>
         <div className="bottomOptionsDiv">
           <OptionsButton
-            optionPress={() => optionPress(gameWords[scrambledOptions[2]])}
-            gameWord={
-              gameWords[scrambledOptions[2]]
-                ? gameWords[scrambledOptions[2]].pinyin
-                : "..."
-            }
+            optionPress={() => optionPress(scrambledOptions[2])}
+            gameWord={scrambledOptions[2] ? scrambledOptions[2].pinyin : "..."}
           />
           <OptionsButton
-            optionPress={() => optionPress(gameWords[scrambledOptions[3]])}
-            gameWord={
-              gameWords[scrambledOptions[3]]
-                ? gameWords[scrambledOptions[3]].pinyin
-                : "..."
-            }
+            optionPress={() => optionPress(scrambledOptions[3])}
+            gameWord={scrambledOptions[3] ? scrambledOptions[3].pinyin : "..."}
           />
         </div>
       </div>

@@ -1,7 +1,6 @@
-choose what chapter
-choose all chapters
 not showing options if less then x words (solve by taking pinyin from all words not chapter wise)
-better feedback when answering wrong
+pinyin from all words not chapter wise
+
 choose 20 random words (quick play)
 add all words
 flashcards?
@@ -9,5 +8,4 @@ flashcards?
 feedback:
 add data on words how many words it includes
 add data on word words to match e.g hen, yi, etc.
-pinyin from all words not chapter wise
 add data on words if long or not

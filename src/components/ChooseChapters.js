@@ -2,7 +2,6 @@ import React from "react"
 import Typography from "@material-ui/core/Typography"
 import { withStyles } from "@material-ui/core/styles"
 import Button from "@material-ui/core/Button"
-import Paper from "@material-ui/core/Paper"
 
 const styles = {
   primaryColor: {

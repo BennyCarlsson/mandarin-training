@@ -11,7 +11,6 @@ import Typography from "@material-ui/core/Typography"
 class ListWrongAnswers extends Component {
   getWordItems = () => {
     const wrongAnswers = this.props.wrongAnswers
-    console.log(wrongAnswers)
     return wrongAnswers && wrongAnswers.map(word => <WrongWord word={word} />)
   }
   render() {

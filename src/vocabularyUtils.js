@@ -26,3 +26,31 @@ const shuffle = array => {
 
   return array
 }
+
+export const scrambleOptions = rightOptionWord => {
+  const gameWords = getAllWords()
+  let scrambledOptions = []
+
+  while (scrambledOptions.length < 4 && gameWords.length > 4) {
+    const randomNumber = Math.floor(Math.random() * gameWords.length)
+    if (
+      gameWords[randomNumber] !== rightOptionWord &&
+      !scrambledOptions.includes(gameWords[randomNumber])
+    ) {
+      scrambledOptions.push(gameWords[randomNumber])
+    }
+  }
+
+  const nr = Math.floor(Math.random() * 4)
+  scrambledOptions[nr] = rightOptionWord
+  return scrambledOptions
+}
+
+//Todo this should be done once at the start, saved and reused
+const getAllWords = () => {
+  let wordList = []
+  Object.values(vocabulary).forEach(chapter =>
+    chapter.forEach(word => wordList.push(word))
+  )
+  return wordList
+}

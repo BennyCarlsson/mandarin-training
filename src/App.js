@@ -1,6 +1,5 @@
 import React, { Component } from "react"
-import { getWordsRandomized } from "./vocabularyUtils"
-import { scrambleOptions } from "./utils"
+import { getWordsRandomized, scrambleOptions } from "./vocabularyUtils"
 import "./App.css"
 import QuizPage from "./components/QuizPage"
 import { ResultPage } from "./components/ResultPage"
@@ -22,7 +21,7 @@ class App extends Component {
     const wordsRandomized = getWordsRandomized()
     this.setState({
       gameWords: wordsRandomized,
-      scrambledOptions: scrambleOptions(wordsRandomized, 0),
+      scrambledOptions: scrambleOptions(wordsRandomized[0]),
       wrongAnswers: [],
       answerOptions: [],
       questionIndex: 0,
@@ -35,7 +34,7 @@ class App extends Component {
     const words = this.state.wrongAnswers
     this.setState({
       gameWords: words,
-      scrambledOptions: scrambleOptions(words, 0),
+      scrambledOptions: scrambleOptions(words[0]),
       wrongAnswers: [],
       answerOptions: [],
       questionIndex: 0,
@@ -51,7 +50,7 @@ class App extends Component {
       questionIndex: newQuestionIndex,
       currentWord: question,
       answeredWrong: false,
-      scrambledOptions: scrambleOptions(gameWords, newQuestionIndex)
+      scrambledOptions: scrambleOptions(gameWords[newQuestionIndex])
     })
   }
 
@@ -87,7 +86,7 @@ class App extends Component {
     const wordsRandomized = getWordsRandomized([chapter])
     this.setState({
       gameWords: wordsRandomized,
-      scrambledOptions: scrambleOptions(wordsRandomized, 0),
+      scrambledOptions: scrambleOptions(wordsRandomized[0]),
       showStartPage: false
     })
   }

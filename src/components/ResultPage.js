@@ -72,7 +72,7 @@ const ReplayButtons = props => {
         onClick={() => props.replay()}
       >
         <Icon>arrow_back</Icon>
-        <p> Replay All</p>
+        <p> Replay </p>
       </Button>
     </Fragment>
   )

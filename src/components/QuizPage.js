@@ -22,6 +22,8 @@ class QuizPage extends Component {
         <TheWord
           currentWord={this.props.getCurrentWord()}
           answeredWrong={this.props.answeredWrong}
+          setShowTranslation={this.props.setShowTranslation}
+          showTranslation={this.props.showTranslation}
         />
         <Options
           gameWords={this.props.gameWords}

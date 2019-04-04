@@ -14,7 +14,8 @@ class App extends Component {
     scrambledOptions: [],
     questionIndex: 0,
     answeredWrong: false,
-    showStartPage: true
+    showStartPage: true,
+    showTranslation: false
   }
 
   replay = () => {
@@ -26,7 +27,8 @@ class App extends Component {
       answerOptions: [],
       questionIndex: 0,
       answeredWrong: false,
-      showStartPage: true
+      showStartPage: true,
+      showTranslation: false
     })
   }
 
@@ -38,7 +40,8 @@ class App extends Component {
       wrongAnswers: [],
       answerOptions: [],
       questionIndex: 0,
-      answeredWrong: false
+      answeredWrong: false,
+      showTranslation: false
     })
   }
 
@@ -50,10 +53,14 @@ class App extends Component {
       questionIndex: newQuestionIndex,
       currentWord: question,
       answeredWrong: false,
-      scrambledOptions: scrambleOptions(gameWords[newQuestionIndex])
+      scrambledOptions: scrambleOptions(gameWords[newQuestionIndex]),
+      showTranslation: false
     })
   }
-
+  setShowTranslation = showTranslation => {
+    console.log("setShowTranslation")
+    this.setState({ showTranslation })
+  }
   optionPress = answerOption => {
     if (answerOption === this.getCurrentWord()) {
       this.setNextQuestion()
@@ -113,6 +120,8 @@ class App extends Component {
             optionPress={this.optionPress}
             scrambledOptions={this.state.scrambledOptions}
             progress={this.getGameProgress()}
+            setShowTranslation={this.setShowTranslation}
+            showTranslation={this.state.showTranslation}
           />
         )}
       </div>

@@ -14,7 +14,7 @@
     },
     {
       "chinese": "请",
-      "pinyin": "qing",
+      "pinyin": "qǐng",
       "english": "to ask",
       "wordCount": 1
     }
@@ -351,12 +351,6 @@
       "wordCount": 1
     },
     {
-      "chinese": "请",
-      "pinyin": "qǐng",
-      "english": "treat",
-      "wordCount": 1
-    },
-    {
       "chinese": "附近",
       "pinyin": "fùjìn",
       "english": "neighborhood",
@@ -397,6 +391,152 @@
       "pinyin": "guo",
       "english": "used after a word to indicate past action or experience",
       "wordCount": 1
+    }
+  ],
+  "chapter16": [
+    {
+      "chinese": "考试",
+      "pinyin": "kǎoshì",
+      "english": "test",
+      "wordCount": 2
+    },
+    {
+      "chinese": "考",
+      "pinyin": "kǎo",
+      "english": "test",
+      "wordCount": 1
+    },
+    {
+      "chinese": "读写",
+      "pinyin": "dúxiě",
+      "english": "reading and writing",
+      "wordCount": 2
+    },
+    {
+      "chinese": "汉字",
+      "pinyin": "hànzì",
+      "english": "chinese character",
+      "wordCount": 2
+    },
+    {
+      "chinese": "发音",
+      "pinyin": "fāyīn",
+      "english": "pronunciation",
+      "wordCount": 2
+    },
+    {
+      "chinese": "语法",
+      "pinyin": "yǔfǎ",
+      "english": "grammar",
+      "wordCount": 2
+    },
+    {
+      "chinese": "词语",
+      "pinyin": "cíyǔ",
+      "english": "words and expressions",
+      "wordCount": 2
+    },
+    {
+      "chinese": "难",
+      "pinyin": "nán",
+      "english": "difficult",
+      "wordCount": 1
+    },
+    {
+      "chinese": "容易",
+      "pinyin": "róngyì",
+      "english": "easy",
+      "wordCount": 2
+    },
+    {
+      "chinese": "努力",
+      "pinyin": "nǔlì",
+      "english": "hard",
+      "wordCount": 2
+    },
+    {
+      "chinese": "觉得",
+      "pinyin": "juéde",
+      "english": "think",
+      "wordCount": 2
+    },
+    {
+      "chinese": "能",
+      "pinyin": "néng",
+      "english": "can",
+      "wordCount": 1
+    },
+    {
+      "chinese": "写不好",
+      "pinyin": "xiě bu hǎo",
+      "english": "cannot write well",
+      "wordCount": 3
+    },
+    {
+      "chinese": "写",
+      "pinyin": "xiě",
+      "english": "write",
+      "wordCount": 1
+    },
+    {
+      "chinese": "记不住",
+      "pinyin": "jì bu zhù",
+      "english": "cannot memorize",
+      "wordCount": 3
+    },
+    {
+      "chinese": "记",
+      "pinyin": "jì",
+      "english": "to memorize",
+      "wordCount": 1
+    },
+    {
+      "chinese": "进步",
+      "pinyin": "jìnbù",
+      "english": "make progress",
+      "wordCount": 2
+    },
+    {
+      "chinese": "通过",
+      "pinyin": "tōngguò",
+      "english": "pass",
+      "wordCount": 2
+    },
+    {
+      "chinese": "开始",
+      "pinyin": "kāishǐ",
+      "english": "begin",
+      "wordCount": 2
+    },
+    {
+      "chinese": "结束",
+      "pinyin": "jiéshù",
+      "english": "end, finish",
+      "wordCount": 2
+    },
+    {
+      "chinese": "迟到",
+      "pinyin": "chídào",
+      "english": "to be late",
+      "wordCount": 2
+    },
+    {
+      "chinese": "每",
+      "pinyin": "měi",
+      "english": "every",
+      "wordCount": 1
+    },
+    {
+      "chinese": "别",
+      "pinyin": "bié",
+      "english": "don't",
+      "wordCount": 1
+    },
+    {
+      "chinese": "因为",
+      "pinyin": "yīnwèi",
+      "english": "because",
+      "wordCount": 2
     }
   ]
 }

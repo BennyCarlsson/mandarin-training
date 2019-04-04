@@ -7,21 +7,25 @@ class Options extends Component {
     const { optionPress, scrambledOptions } = this.props
     return (
       <div className="optionsDiv">
-        <div className="topOptionsDiv">
+        <div className="optionButton">
           <OptionsButton
             optionPress={() => optionPress(scrambledOptions[0])}
             gameWord={scrambledOptions[0] ? scrambledOptions[0].pinyin : "..."}
           />
+        </div>
+        <div className="optionButton">
           <OptionsButton
             optionPress={() => optionPress(scrambledOptions[1])}
             gameWord={scrambledOptions[1] ? scrambledOptions[1].pinyin : "..."}
           />
         </div>
-        <div className="bottomOptionsDiv">
+        <div className="optionButton">
           <OptionsButton
             optionPress={() => optionPress(scrambledOptions[2])}
             gameWord={scrambledOptions[2] ? scrambledOptions[2].pinyin : "..."}
           />
+        </div>
+        <div className="optionButton">
           <OptionsButton
             optionPress={() => optionPress(scrambledOptions[3])}
             gameWord={scrambledOptions[3] ? scrambledOptions[3].pinyin : "..."}

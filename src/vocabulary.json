@@ -1,57 +1,175 @@
 {
   "chapter1": [
     {
-      "chinese": "你好",
-      "pinyin": "Nǐ hǎo",
-      "english": "hi",
+      "chinese": "您",
+      "pinyin": "nín",
+      "english": "you",
+      "wordCount": 1
+    },
+    {
+      "chinese": "你",
+      "pinyin": "nǐ",
+      "english": "you",
+      "wordCount": 1
+    },
+    {
+      "chinese": "他",
+      "pinyin": "tā",
+      "english": "he, him",
+      "wordCount": 1
+    },
+    {
+      "chinese": "她",
+      "pinyin": "tā",
+      "english": "she, her",
+      "wordCount": 1
+    },
+    {
+      "chinese": "他们",
+      "pinyin": "tāmen",
+      "english": "they",
       "wordCount": 2
     },
     {
-      "chinese": "大",
-      "pinyin": "dà",
-      "english": "big",
+      "chinese": "我们",
+      "pinyin": "wǒmen",
+      "english": "we",
+      "wordCount": 2
+    },
+    {
+      "chinese": "你们",
+      "pinyin": "nǐmen",
+      "english": "you",
+      "wordCount": 2
+    },
+    {
+      "chinese": "老师",
+      "pinyin": "lǎoshī",
+      "english": "teacher",
+      "wordCount": 2
+    },
+    {
+      "chinese": "贵姓",
+      "pinyin": "guìxìng",
+      "english": "may i know your surname?",
+      "wordCount": 2
+    },
+    {
+      "chinese": "叫",
+      "pinyin": "jiào",
+      "english": "call",
       "wordCount": 1
     },
     {
-      "chinese": "请",
-      "pinyin": "qǐng",
-      "english": "to ask",
+      "chinese": "什么",
+      "pinyin": "shénma",
+      "english": "what",
+      "wordCount": 2
+    },
+    {
+      "chinese": "名字",
+      "pinyin": "míngzi",
+      "english": "name",
+      "wordCount": 2
+    },
+    {
+      "chinese": "是",
+      "pinyin": "shì",
+      "english": "be",
       "wordCount": 1
-    }
-  ],
-  "chapter2": [
+    },
+    {
+      "chinese": "哪国人",
+      "pinyin": "nǎ guó rén",
+      "english": "what's your nationality?",
+      "wordCount": 3
+    },
+    {
+      "chinese": "哪",
+      "pinyin": "nǎ",
+      "english": "wich",
+      "wordCount": 1
+    },
+    {
+      "chinese": "国",
+      "pinyin": "guó",
+      "english": "country",
+      "wordCount": 1
+    },
+    {
+      "chinese": "人",
+      "pinyin": "rén",
+      "english": "people, person",
+      "wordCount": 1
+    },
+    {
+      "chinese": "学习",
+      "pinyin": "xuéxí",
+      "english": "learn,study",
+      "wordCount": 2
+    },
+    {
+      "chinese": "汉语",
+      "pinyin": "hànyǔ",
+      "english": "chinese",
+      "wordCount": 2
+    },
+    {
+      "chinese": "法语",
+      "pinyin": "fǎyǔ",
+      "english": "french",
+      "wordCount": 2
+    },
     {
       "chinese": "好",
-      "pinyin": "hâo",
-      "english": "good; fine;",
+      "pinyin": "hǎo",
+      "english": "good, fine",
       "wordCount": 1
     },
     {
-      "chinese": "问",
-      "pinyin": "wèn ",
-      "english": "please",
+      "chinese": "也",
+      "pinyin": "yě",
+      "english": "also",
       "wordCount": 1
     },
     {
-      "chinese": "贵",
-      "pinyin": "guì",
-      "english": "honorable; expensive",
+      "chinese": "都",
+      "pinyin": "dōu",
+      "english": "all, both",
+      "wordCount": 2
+    },
+    {
+      "chinese": "不",
+      "pinyin": "bù",
+      "english": "no, not",
       "wordCount": 1
     },
     {
-      "chinese": "姓",
-      "pinyin": "xìng",
-      "english": "(one’s) surname is...; to be surnamed; surname",
+      "chinese": "你呢",
+      "pinyin": "nǐne",
+      "english": "how about you?",
+      "wordCount": 2
+    },
+    {
+      "chinese": "吗",
+      "pinyin": "ma",
+      "english": "question particle",
       "wordCount": 1
     },
     {
-      "chinese": "我",
-      "pinyin": "wǒ",
-      "english": "I; Me",
-      "wordCount": 1
+      "chinese": "英国",
+      "pinyin": "yīngguó",
+      "english": "U.K",
+      "wordCount": 2
+    },
+    {
+      "chinese": "法国",
+      "pinyin": "fǎguó",
+      "english": "france",
+      "wordCount": 2
     }
   ],
-  "chapter11": [
+  "chapter12": [
     {
       "chinese": "上",
       "pinyin": "shàng",
@@ -81,9 +199,111 @@
       "pinyin": "tīngshuō",
       "english": "it is said",
       "wordCount": 2
+    },
+    {
+      "chinese": "马路",
+      "pinyin": "mǎlù",
+      "english": "road",
+      "wordCount": 2
+    },
+    {
+      "chinese": "宾馆",
+      "pinyin": "bīnguǎn",
+      "english": "hotel",
+      "wordCount": 2
+    },
+    {
+      "chinese": "天气",
+      "pinyin": "tiānqì",
+      "english": "weather",
+      "wordCount": 2
+    },
+    {
+      "chinese": "交通",
+      "pinyin": "jiāotōng",
+      "english": "traffic, transportation",
+      "wordCount": 2
+    },
+    {
+      "chinese": "有意思",
+      "pinyin": "yǒuìsi",
+      "english": "interesting",
+      "wordCount": 3
+    },
+    {
+      "chinese": "新",
+      "pinyin": "xīn",
+      "english": "new",
+      "wordCount": 1
+    },
+    {
+      "chinese": "冷",
+      "pinyin": "lěng",
+      "english": "cold",
+      "wordCount": 1
+    },
+    {
+      "chinese": "热",
+      "pinyin": "rè",
+      "english": "hot",
+      "wordCount": 1
+    },
+    {
+      "chinese": "累",
+      "pinyin": "lèi",
+      "english": "tired",
+      "wordCount": 1
+    },
+    {
+      "chinese": "干净",
+      "pinyin": "gānjìng",
+      "english": "clean",
+      "wordCount": 2
+    },
+    {
+      "chinese": "方便",
+      "pinyin": "fāngbiàn",
+      "english": "convenient",
+      "wordCount": 2
+    },
+    {
+      "chinese": "高兴",
+      "pinyin": "gāoxìng",
+      "english": "glad",
+      "wordCount": 2
+    },
+    {
+      "chinese": "认识",
+      "pinyin": "rènshi",
+      "english": "know, get to know (a person)",
+      "wordCount": 2
+    },
+    {
+      "chinese": "几",
+      "pinyin": "jǐ",
+      "english": "several (in statements)",
+      "wordCount": 1
+    },
+    {
+      "chinese": "但是",
+      "pinyin": "dànshì",
+      "english": "but",
+      "wordCount": 2
+    },
+    {
+      "chinese": "如果",
+      "pinyin": "rúguǒ",
+      "english": "if",
+      "wordCount": 2
+    },
+    {
+      "chinese": "长城",
+      "pinyin": "chángchéng",
+      "english": "the Great Wall",
+      "wordCount": 2
     }
   ],
-  "chapter12": [
+  "chapter13": [
     {
       "chinese": "刚才",
       "pinyin": "gāngcái",
@@ -183,7 +403,7 @@
     {
       "chinese": "锁",
       "pinyin": "suǒ",
-      "english": "say",
+      "english": "lock",
       "wordCount": 1
     },
     {

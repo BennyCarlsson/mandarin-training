@@ -2,6 +2,7 @@ import React from "react"
 import Typography from "@material-ui/core/Typography"
 import { withStyles } from "@material-ui/core/styles"
 import Button from "@material-ui/core/Button"
+import Icon from "@material-ui/core/Icon"
 
 const styles = {
   primaryColor: {
@@ -35,27 +36,18 @@ const ChooseChapter = props => {
           size="large"
           color="primary"
           className={classes.button}
-          onClick={() => startChapter("chapter2")}
-        >
-          Chapter 2
-        </Button>
-        <Button
-          variant="contained"
-          size="large"
-          color="primary"
-          className={classes.button}
-          onClick={() => startChapter("chapter11")}
-        >
-          Chapter 11
-        </Button>
-        <Button
-          variant="contained"
-          size="large"
-          color="primary"
-          className={classes.button}
           onClick={() => startChapter("chapter12")}
         >
           Chapter 12
+        </Button>
+        <Button
+          variant="contained"
+          size="large"
+          color="primary"
+          className={classes.button}
+          onClick={() => startChapter("chapter13")}
+        >
+          Chapter 13
         </Button>
         <Button
           variant="contained"
@@ -76,6 +68,7 @@ const ChooseChapter = props => {
           Chapter 16
         </Button>
       </div>
+      <p className="createdBy">created by Benny </p>
     </div>
   )
 }

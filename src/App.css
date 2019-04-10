@@ -107,3 +107,9 @@
 .paper {
   flex: 1;
 }
+.createdBy {
+  position: absolute;
+  bottom: 0;
+  right: 8px;
+  color: #5a5a5b;
+}

@@ -2,11 +2,11 @@ import React from "react"
 
 const TheWord = props => {
   return (
-    <div className="theWordDiv">
-      <h1
-        className="theWord"
-        onClick={() => props.setShowTranslation(!props.showTranslation)}
-      >
+    <div
+      className="theWordDiv"
+      onClick={() => props.setShowTranslation(!props.showTranslation)}
+    >
+      <h1 className="theWord">
         {props.currentWord && props.currentWord.chinese}
       </h1>
       <span className="wrong-pinyin">

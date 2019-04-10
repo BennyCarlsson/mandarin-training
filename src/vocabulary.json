@@ -758,5 +758,151 @@
       "english": "because",
       "wordCount": 2
     }
+  ],
+  "chapter2.1": [
+    {
+      "chinese": "好久不见",
+      "pinyin": "hǎojiǔ bú jiàn",
+      "english": "long time no see",
+      "wordCount": 3
+    },
+    {
+      "chinese": "要 了",
+      "pinyin": "yào le",
+      "english": "soon, about too",
+      "wordCount": 2
+    },
+    {
+      "chinese": "毕业",
+      "pinyin": "bìyè",
+      "english": "to graduate",
+      "wordCount": 2
+    },
+    {
+      "chinese": "研究生",
+      "pinyin": "yánjiūshēng",
+      "english": "graduate student",
+      "wordCount": 2
+    },
+    {
+      "chinese": "专业",
+      "pinyin": "zhuānyè",
+      "english": "major",
+      "wordCount": 2
+    },
+    {
+      "chinese": "国际",
+      "pinyin": "guójì",
+      "english": "international",
+      "wordCount": 2
+    },
+    {
+      "chinese": "经济",
+      "pinyin": "jīngjì",
+      "english": "economy",
+      "wordCount": 2
+    },
+    {
+      "chinese": "贸易",
+      "pinyin": "màoyì",
+      "english": "trade",
+      "wordCount": 2
+    },
+    {
+      "chinese": "找",
+      "pinyin": "zhǎo",
+      "english": "to look for",
+      "wordCount": 1
+    },
+    {
+      "chinese": "应该",
+      "pinyin": "yīnggāi",
+      "english": "should, ought to",
+      "wordCount": 2
+    },
+    {
+      "chinese": "最近",
+      "pinyin": "zuìjìn",
+      "english": "recently",
+      "wordCount": 2
+    },
+    {
+      "chinese": "老样子",
+      "pinyin": "lǎo yàngzi",
+      "english": "same as usual",
+      "wordCount": 3
+    },
+    {
+      "chinese": "特别",
+      "pinyin": "tèbié",
+      "english": "especially",
+      "wordCount": 2
+    },
+    {
+      "chinese": "完",
+      "pinyin": "wán",
+      "english": "finish",
+      "wordCount": 1
+    },
+    {
+      "chinese": "论文",
+      "pinyin": "lùnwén",
+      "english": "thesis, paper",
+      "wordCount": 2
+    },
+    {
+      "chinese": "满意",
+      "pinyin": "mǎnyì",
+      "english": "be satisfied",
+      "wordCount": 2
+    },
+    {
+      "chinese": "着急",
+      "pinyin": "zháojí",
+      "english": "worried, anxious",
+      "wordCount": 2
+    },
+    {
+      "chinese": "祝",
+      "pinyin": "zhù",
+      "english": "to wish",
+      "wordCount": 1
+    },
+    {
+      "chinese": "好运",
+      "pinyin": "hǎoyùn",
+      "english": "good luck",
+      "wordCount": 2
+    },
+    {
+      "chinese": "白天",
+      "pinyin": "báitiān",
+      "english": "daytime",
+      "wordCount": 2
+    },
+    {
+      "chinese": "夜里",
+      "pinyin": "yèli",
+      "english": "night",
+      "wordCount": 2
+    },
+    {
+      "chinese": "比赛",
+      "pinyin": "bǐsài",
+      "english": "match; to compete",
+      "wordCount": 2
+    },
+    {
+      "chinese": "加班",
+      "pinyin": "jiābān",
+      "english": "work overtime",
+      "wordCount": 2
+    },
+    {
+      "chinese": "世界杯",
+      "pinyin": "shìjiè bēi",
+      "english": "World Cup",
+      "wordCount": 3
+    }
   ]
 }

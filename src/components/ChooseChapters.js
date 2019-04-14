@@ -53,6 +53,15 @@ const ChooseChapter = props => {
           size="large"
           color="primary"
           className={classes.button}
+          onClick={() => startChapter("chapter14")}
+        >
+          Chapter 14
+        </Button>
+        <Button
+          variant="contained"
+          size="large"
+          color="primary"
+          className={classes.button}
           onClick={() => startChapter("chapter15")}
         >
           Chapter 15

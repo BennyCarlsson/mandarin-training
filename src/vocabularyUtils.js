@@ -31,15 +31,21 @@ export const scrambleOptions = rightOptionWord => {
   if (!rightOptionWord) return []
   const gameWords = getAllWords()
   let scrambledOptions = []
-  while (scrambledOptions.length < 4 && gameWords.length > 4) {
-    const randomNumber = Math.floor(Math.random() * gameWords.length)
+  const relevantWords = gameWords.filter(
+    word => word.wordCount === rightOptionWord.wordCount
+  )
+  console.log("relevantWords", relevantWords)
+  while (scrambledOptions.length < 4 && relevantWords.length > 4) {
+    const randomNumber = Math.floor(Math.random() * relevantWords.length)
+    const currentWord = relevantWords[randomNumber]
+    console.log("currentWord", currentWord)
     if (
-      gameWords[randomNumber] !== rightOptionWord &&
-      !scrambledOptions.includes(gameWords[randomNumber]) &&
-      gameWords[randomNumber].wordCount === rightOptionWord.wordCount &&
-      gameWords[randomNumber].pinyin !== rightOptionWord.pinyin
+      currentWord !== rightOptionWord &&
+      !scrambledOptions.includes(currentWord) &&
+      currentWord.wordCount === rightOptionWord.wordCount &&
+      currentWord.pinyin !== rightOptionWord.pinyin
     ) {
-      scrambledOptions.push(gameWords[randomNumber])
+      scrambledOptions.push(currentWord)
     }
   }
 

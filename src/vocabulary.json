@@ -455,6 +455,188 @@
       "wordCount": 1
     }
   ],
+  "chapter14": [
+    {
+      "chinese": "博物馆",
+      "pinyin": "bówùguǎn",
+      "english": "museum",
+      "wordCount": 3
+    },
+    {
+      "chinese": "市中心",
+      "pinyin": "shì zhōngxīn",
+      "english": "downtown",
+      "wordCount": 3
+    },
+    {
+      "chinese": "挺",
+      "pinyin": "tǐng",
+      "english": "very",
+      "wordCount": 1
+    },
+    {
+      "chinese": "远",
+      "pinyin": "yuǎn",
+      "english": "far",
+      "wordCount": 1
+    },
+    {
+      "chinese": "近",
+      "pinyin": "jìn",
+      "english": "near",
+      "wordCount": 1
+    },
+    {
+      "chinese": "路",
+      "pinyin": "lù",
+      "english": "route",
+      "wordCount": 1
+    },
+    {
+      "chinese": "公共汽车",
+      "pinyin": "gōnggòng qìchē",
+      "english": "bus",
+      "wordCount": 4
+    },
+    {
+      "chinese": "地铁",
+      "pinyin": "dìtiě",
+      "english": "subway, metro",
+      "wordCount": 2
+    },
+    {
+      "chinese": "先",
+      "pinyin": "xiān",
+      "english": "first",
+      "wordCount": 1
+    },
+    {
+      "chinese": "然后",
+      "pinyin": "ránhòu",
+      "english": "then",
+      "wordCount": 2
+    },
+    {
+      "chinese": "换",
+      "pinyin": "huàn",
+      "english": "change",
+      "wordCount": 1
+    },
+    {
+      "chinese": "票",
+      "pinyin": "piào",
+      "english": "ticket",
+      "wordCount": 1
+    },
+    {
+      "chinese": "站",
+      "pinyin": "zhàn",
+      "english": "railway station, bus stop",
+      "wordCount": 1
+    },
+    {
+      "chinese": "车站",
+      "pinyin": "chēzhàn",
+      "english": "railway station, bus stop",
+      "wordCount": 2
+    },
+    {
+      "chinese": "师傅",
+      "pinyin": "shīfu",
+      "english": "adress a worker, a driver etc.",
+      "wordCount": 2
+    },
+    {
+      "chinese": "售票员",
+      "pinyin": "shòupiàoyuán",
+      "english": "conductor",
+      "wordCount": 3
+    },
+    {
+      "chinese": "行人",
+      "pinyin": "xíngrén",
+      "english": "pedestrian",
+      "wordCount": 2
+    },
+    {
+      "chinese": "前边",
+      "pinyin": "qiánbian",
+      "english": "front",
+      "wordCount": 1
+    },
+    {
+      "chinese": "后边",
+      "pinyin": "hòubian",
+      "english": "back",
+      "wordCount": 2
+    },
+    {
+      "chinese": "右面",
+      "pinyin": "yòumiàn",
+      "english": "right side",
+      "wordCount": 2
+    },
+    {
+      "chinese": "左面",
+      "pinyin": "zuǒmiàn",
+      "english": "left side",
+      "wordCount": 2
+    },
+    {
+      "chinese": "往",
+      "pinyin": "wǎng",
+      "english": "towards",
+      "wordCount": 1
+    },
+    {
+      "chinese": "走",
+      "pinyin": "zǒu",
+      "english": "walk, go",
+      "wordCount": 1
+    },
+    {
+      "chinese": "拐",
+      "pinyin": "guǎi",
+      "english": "turn",
+      "wordCount": 1
+    },
+    {
+      "chinese": "到",
+      "pinyin": "dào",
+      "english": "arrive",
+      "wordCount": 1
+    },
+    {
+      "chinese": "路口",
+      "pinyin": "lùkǒu",
+      "english": "intersection",
+      "wordCount": 2
+    },
+    {
+      "chinese": "遍",
+      "pinyin": "biàn",
+      "english": "M.W 一遍 once",
+      "wordCount": 1
+    },
+    {
+      "chinese": "不好意思",
+      "pinyin": "bù hǎoyìsi",
+      "english": "sorry, feel shy, be embarrassed",
+      "wordCount": 4
+    },
+    {
+      "chinese": "错",
+      "pinyin": "cuò",
+      "english": "wrong",
+      "wordCount": 1
+    },
+    {
+      "chinese": "我们到了",
+      "pinyin": "wǒmen dàole",
+      "english": "we have arrived",
+      "wordCount": 4
+    }
+  ],
   "chapter15": [
     {
       "chinese": "一般",
@@ -764,7 +946,7 @@
       "chinese": "好久不见",
       "pinyin": "hǎojiǔ bú jiàn",
       "english": "long time no see",
-      "wordCount": 3
+      "wordCount": 4
     },
     {
       "chinese": "要 了",
@@ -1092,7 +1274,7 @@
       "chinese": "对有好处",
       "pinyin": "duì yǒu hǎochù",
       "english": "be good to",
-      "wordCount": 3
+      "wordCount": 4
     },
     {
       "chinese": "所以",

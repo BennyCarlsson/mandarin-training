@@ -1,5 +1,5 @@
 choose 20 random words (quick play)
-chapter 14
+show wich chapter just finished
 add all words
 add data on words if long or not
 more style

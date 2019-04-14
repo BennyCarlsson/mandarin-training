@@ -58,7 +58,6 @@ class App extends Component {
     })
   }
   setShowTranslation = showTranslation => {
-    console.log("setShowTranslation")
     this.setState({ showTranslation })
   }
   optionPress = answerOption => {

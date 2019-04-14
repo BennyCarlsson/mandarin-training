@@ -904,5 +904,157 @@
       "english": "World Cup",
       "wordCount": 3
     }
+  ],
+  "chapter2.2": [
+    {
+      "chinese": "打球",
+      "pinyin": "dà qiú",
+      "english": "play a ball game",
+      "wordCount": 2
+    },
+    {
+      "chinese": "系",
+      "pinyin": "xì",
+      "english": "department",
+      "wordCount": 1
+    },
+    {
+      "chinese": "乒乓球",
+      "pinyin": "pīngpāngqiú",
+      "english": "pingpong",
+      "wordCount": 3
+    },
+    {
+      "chinese": "输",
+      "pinyin": "shū",
+      "english": "to lose",
+      "wordCount": 1
+    },
+    {
+      "chinese": "篮球",
+      "pinyin": "lánqiú",
+      "english": "basketball",
+      "wordCount": 2
+    },
+    {
+      "chinese": "赢",
+      "pinyin": "yíng",
+      "english": "to win",
+      "wordCount": 1
+    },
+    {
+      "chinese": "踢足球",
+      "pinyin": "tī zúqiú",
+      "english": "play soccer",
+      "wordCount": 3
+    },
+    {
+      "chinese": "参加",
+      "pinyin": "cānjiā",
+      "english": "to attend, to take part in",
+      "wordCount": 2
+    },
+    {
+      "chinese": "话",
+      "pinyin": "huà",
+      "english": "words, speech",
+      "wordCount": 1
+    },
+    {
+      "chinese": "京剧",
+      "pinyin": "jīngjù",
+      "english": "Beijing opera",
+      "wordCount": 2
+    },
+    {
+      "chinese": "演出",
+      "pinyin": "yǎnchū",
+      "english": "performance, to perform",
+      "wordCount": 2
+    },
+    {
+      "chinese": "会",
+      "pinyin": "huì",
+      "english": "can, to know how to",
+      "wordCount": 1
+    },
+    {
+      "chinese": "学生会",
+      "pinyin": "xuéshēnghuì",
+      "english": "student union",
+      "wordCount": 3
+    },
+    {
+      "chinese": "团",
+      "pinyin": "tuán",
+      "english": "group",
+      "wordCount": 1
+    },
+    {
+      "chinese": "活动",
+      "pinyin": "huódòng",
+      "english": "activity; move about",
+      "wordCount": 2
+    },
+    {
+      "chinese": "卖",
+      "pinyin": "mài",
+      "english": "to sell",
+      "wordCount": 1
+    },
+    {
+      "chinese": "送",
+      "pinyin": "sòng",
+      "english": "to give",
+      "wordCount": 1
+    },
+    {
+      "chinese": "给",
+      "pinyin": "gěi",
+      "english": "to",
+      "wordCount": 1
+    },
+    {
+      "chinese": "做",
+      "pinyin": "zuò",
+      "english": "to do",
+      "wordCount": 1
+    },
+    {
+      "chinese": "生意",
+      "pinyin": "shēngyi",
+      "english": "business",
+      "wordCount": 2
+    },
+    {
+      "chinese": "得",
+      "pinyin": "děi",
+      "english": "have to, must",
+      "wordCount": 1
+    },
+    {
+      "chinese": "图书馆",
+      "pinyin": "túshūguǎn",
+      "english": "library",
+      "wordCount": 3
+    },
+    {
+      "chinese": "过期",
+      "pinyin": "guòqī",
+      "english": "overdue",
+      "wordCount": 2
+    },
+    {
+      "chinese": "罚款",
+      "pinyin": "fá kuǎn",
+      "english": "to impose a fine, to fine",
+      "wordCount": 2
+    },
+    {
+      "chinese": "美国",
+      "pinyin": "měiguó",
+      "english": "U.S.A",
+      "wordCount": 2
+    }
   ]
 }

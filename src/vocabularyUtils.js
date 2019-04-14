@@ -36,7 +36,8 @@ export const scrambleOptions = rightOptionWord => {
     if (
       gameWords[randomNumber] !== rightOptionWord &&
       !scrambledOptions.includes(gameWords[randomNumber]) &&
-      gameWords[randomNumber].wordCount === rightOptionWord.wordCount
+      gameWords[randomNumber].wordCount === rightOptionWord.wordCount &&
+      gameWords[randomNumber].pinyin !== rightOptionWord.pinyin
     ) {
       scrambledOptions.push(gameWords[randomNumber])
     }

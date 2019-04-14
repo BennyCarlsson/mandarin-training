@@ -1056,5 +1056,151 @@
       "english": "U.S.A",
       "wordCount": 2
     }
+  ],
+  "chapter2.3": [
+    {
+      "chinese": "喝酒",
+      "pinyin": "hē jiǔ",
+      "english": "drink alcohol",
+      "wordCount": 2
+    },
+    {
+      "chinese": "抽烟",
+      "pinyin": "chōu yān",
+      "english": "smoke",
+      "wordCount": 2
+    },
+    {
+      "chinese": "年轻",
+      "pinyin": "niánqīng",
+      "english": "young",
+      "wordCount": 2
+    },
+    {
+      "chinese": "后来",
+      "pinyin": "hòulái",
+      "english": "after that, later",
+      "wordCount": 2
+    },
+    {
+      "chinese": "医生",
+      "pinyin": "yīshēng",
+      "english": "doctor",
+      "wordCount": 2
+    },
+    {
+      "chinese": "对有好处",
+      "pinyin": "duì yǒu hǎochù",
+      "english": "be good to",
+      "wordCount": 3
+    },
+    {
+      "chinese": "所以",
+      "pinyin": "suǒyǐ",
+      "english": "so",
+      "wordCount": 2
+    },
+    {
+      "chinese": "平时",
+      "pinyin": "píngshí",
+      "english": "at ordinary times",
+      "wordCount": 2
+    },
+    {
+      "chinese": "运动",
+      "pinyin": "yùndòng",
+      "english": "sports; to have sports",
+      "wordCount": 2
+    },
+    {
+      "chinese": "游泳",
+      "pinyin": "yóu yǒng",
+      "english": "swim",
+      "wordCount": 2
+    },
+    {
+      "chinese": "另外",
+      "pinyin": "lìngwài",
+      "english": "in addition, moreover",
+      "wordCount": 2
+    },
+    {
+      "chinese": "网球",
+      "pinyin": "wǎngqiú",
+      "english": "tennis",
+      "wordCount": 2
+    },
+    {
+      "chinese": "羽毛球",
+      "pinyin": "yǔmáoqiú",
+      "english": "badminton",
+      "wordCount": 3
+    },
+    {
+      "chinese": "花儿",
+      "pinyin": "huār",
+      "english": "flower",
+      "wordCount": 2
+    },
+    {
+      "chinese": "养",
+      "pinyin": "yǎng",
+      "english": "to raise/keep",
+      "wordCount": 1
+    },
+    {
+      "chinese": "不过",
+      "pinyin": "búguò",
+      "english": "but",
+      "wordCount": 2
+    },
+    {
+      "chinese": "搬",
+      "pinyin": "bān",
+      "english": "to move",
+      "wordCount": 1
+    },
+    {
+      "chinese": "院子",
+      "pinyin": "yuànzi",
+      "english": "yard",
+      "wordCount": 2
+    },
+    {
+      "chinese": "狗",
+      "pinyin": "gǒu",
+      "english": "dog 🐶",
+      "wordCount": 1
+    },
+    {
+      "chinese": "猫",
+      "pinyin": "māo",
+      "english": "🐱 cat",
+      "wordCount": 1
+    },
+    {
+      "chinese": "带",
+      "pinyin": "dài",
+      "english": "to bring, to take",
+      "wordCount": 1
+    },
+    {
+      "chinese": "散步",
+      "pinyin": "sàn bù",
+      "english": "to take a walk",
+      "wordCount": 2
+    },
+    {
+      "chinese": "电视",
+      "pinyin": "diànshì",
+      "english": "TV",
+      "wordCount": 2
+    },
+    {
+      "chinese": "上网",
+      "pinyin": "shàng wǎng",
+      "english": "to surf the internet",
+      "wordCount": 2
+    }
   ]
 }

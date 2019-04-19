@@ -4,7 +4,7 @@ const BetaVersionTag = () => {
   return (
     <div className="betaTag">
       <span className="beta">BETA</span>
-      <span className="versionNr"> v.0.2.4</span>
+      <span className="versionNr"> v.0.2.5</span>
     </div>
   )
 }

@@ -5,6 +5,7 @@
   "homepage": "https://bennycarlsson.github.io/mandarin",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.4"

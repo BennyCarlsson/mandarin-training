@@ -34,11 +34,9 @@ export const scrambleOptions = rightOptionWord => {
   const relevantWords = gameWords.filter(
     word => word.wordCount === rightOptionWord.wordCount
   )
-  console.log("relevantWords", relevantWords)
   while (scrambledOptions.length < 4 && relevantWords.length > 4) {
     const randomNumber = Math.floor(Math.random() * relevantWords.length)
     const currentWord = relevantWords[randomNumber]
-    console.log("currentWord", currentWord)
     if (
       currentWord !== rightOptionWord &&
       !scrambledOptions.includes(currentWord) &&

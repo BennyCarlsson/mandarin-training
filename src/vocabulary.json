@@ -1384,5 +1384,157 @@
       "english": "to surf the internet",
       "wordCount": 2
     }
+  ],
+  "chapter2.4": [
+    {
+      "chinese": "个子",
+      "pinyin": "gèzi",
+      "english": "height",
+      "wordCount": 2
+    },
+    {
+      "chinese": "高",
+      "pinyin": "gāo",
+      "english": "tall,high",
+      "wordCount": 1
+    },
+    {
+      "chinese": "痩",
+      "pinyin": "shòu",
+      "english": "thin",
+      "wordCount": 1
+    },
+    {
+      "chinese": "晚",
+      "pinyin": "wǎn",
+      "english": "late",
+      "wordCount": 1
+    },
+    {
+      "chinese": "跟 有关系",
+      "pinyin": "gēn yǒu guānxi",
+      "english": "to have sth. to do with",
+      "wordCount": 4
+    },
+    {
+      "chinese": "眼睛",
+      "pinyin": "yǎnjing",
+      "english": "eye",
+      "wordCount": 2
+    },
+    {
+      "chinese": "皮肤",
+      "pinyin": "pífū",
+      "english": "skin",
+      "wordCount": 2
+    },
+    {
+      "chinese": "白",
+      "pinyin": "bái",
+      "english": "white",
+      "wordCount": 1
+    },
+    {
+      "chinese": "舞会",
+      "pinyin": "wǔhuí",
+      "english": "dance party, ball",
+      "wordCount": 2
+    },
+    {
+      "chinese": "介绍",
+      "pinyin": "jièshào",
+      "english": "to introduce",
+      "wordCount": 2
+    },
+    {
+      "chinese": "胖",
+      "pinyin": "pàng",
+      "english": "fat",
+      "wordCount": 1
+    },
+    {
+      "chinese": "早",
+      "pinyin": "zǎo",
+      "english": "early",
+      "wordCount": 1
+    },
+    {
+      "chinese": "矮",
+      "pinyin": "ǎi",
+      "english": "short (in height)",
+      "wordCount": 1
+    },
+    {
+      "chinese": "黑",
+      "pinyin": "hēi",
+      "english": "black",
+      "wordCount": 1
+    },
+    {
+      "chinese": "穿",
+      "pinyin": "chuān",
+      "english": "to wear",
+      "wordCount": 1
+    },
+    {
+      "chinese": "随便",
+      "pinyin": "suíbiàn",
+      "english": "casual, random,informal",
+      "wordCount": 2
+    },
+    {
+      "chinese": "T恤",
+      "pinyin": "T xù",
+      "english": "T-shirt",
+      "wordCount": 1
+    },
+    {
+      "chinese": "条",
+      "pinyin": "tiáo",
+      "english": "M.W",
+      "wordCount": 1
+    },
+    {
+      "chinese": "短裤",
+      "pinyin": "duǎnkù",
+      "english": "shorts",
+      "wordCount": 2
+    },
+    {
+      "chinese": "爱",
+      "pinyin": "ài",
+      "english": "to love",
+      "wordCount": 1
+    },
+    {
+      "chinese": "让",
+      "pinyin": "ràng",
+      "english": "to let",
+      "wordCount": 1
+    },
+    {
+      "chinese": "害怕",
+      "pinyin": "hàipà",
+      "english": "to be afraid of, to be scared",
+      "wordCount": 2
+    },
+    {
+      "chinese": "糊里糊涂",
+      "pinyin": "húlihútú",
+      "english": "muddled, confused, bewildered",
+      "wordCount": 4
+    },
+    {
+      "chinese": "俩",
+      "pinyin": "liǎ",
+      "english": "two",
+      "wordCount": 1
+    },
+    {
+      "chinese": "真实",
+      "pinyin": "zhēnshí",
+      "english": "true",
+      "wordCount": 2
+    }
   ]
 }

@@ -32,7 +32,7 @@ export const scrambleOptions = rightOptionWord => {
   const gameWords = getAllWords()
   let scrambledOptions = []
   const relevantWords = gameWords.filter(
-    word => word.wordCount === rightOptionWord.wordCount
+    word => word.chinese.length === rightOptionWord.chinese.length
   )
   while (scrambledOptions.length < 4 && relevantWords.length > 4) {
     const randomNumber = Math.floor(Math.random() * relevantWords.length)
@@ -40,7 +40,6 @@ export const scrambleOptions = rightOptionWord => {
     if (
       currentWord !== rightOptionWord &&
       !scrambledOptions.includes(currentWord) &&
-      currentWord.wordCount === rightOptionWord.wordCount &&
       currentWord.pinyin !== rightOptionWord.pinyin
     ) {
       scrambledOptions.push(currentWord)

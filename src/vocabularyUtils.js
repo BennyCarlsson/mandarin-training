@@ -31,6 +31,8 @@ export const scrambleOptions = rightOptionWord => {
   if (!rightOptionWord) return []
   const gameWords = getAllWords()
   let scrambledOptions = []
+
+  //Todo fix problem if to few of a word with that length
   const relevantWords = gameWords.filter(
     word => word.chinese.length === rightOptionWord.chinese.length
   )

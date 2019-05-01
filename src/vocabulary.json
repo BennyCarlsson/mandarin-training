@@ -1169,6 +1169,11 @@
       "english": "tall,high"
     },
     {
+      "chinese": "头发",
+      "pinyin": "tóufa",
+      "english": "thin"
+    },
+    {
       "chinese": "痩",
       "pinyin": "shòu",
       "english": "thin"
@@ -1249,6 +1254,11 @@
       "english": "M.W"
     },
     {
+      "chinese": "短",
+      "pinyin": "duǎn",
+      "english": "short"
+    },
+    {
       "chinese": "短裤",
       "pinyin": "duǎnkù",
       "english": "shorts"
@@ -1282,6 +1292,153 @@
       "chinese": "真实",
       "pinyin": "zhēnshí",
       "english": "true"
+    }
+  ],
+  "chapter2.5": [
+    {
+      "chinese": "北方",
+      "pinyin": "běifāng",
+      "english": "northern area"
+    },
+    {
+      "chinese": "南方",
+      "pinyin": "nánfāng",
+      "english": "southern area"
+    },
+    {
+      "chinese": "老家",
+      "pinyin": "lǎojiā",
+      "english": "hometown"
+    },
+    {
+      "chinese": "东北",
+      "pinyin": "dōngběi",
+      "english": "northeast"
+    },
+    {
+      "chinese": "城市",
+      "pinyin": "chéngshì",
+      "english": "city"
+    },
+    {
+      "chinese": "农村",
+      "pinyin": "nóngcūn",
+      "english": "countryside"
+    },
+    {
+      "chinese": "环境",
+      "pinyin": "huánjìng",
+      "english": "environment"
+    },
+    {
+      "chinese": "北边",
+      "pinyin": "běibian",
+      "english": "north"
+    },
+    {
+      "chinese": "山",
+      "pinyin": "shān",
+      "english": "mountain, hill"
+    },
+    {
+      "chinese": "南边",
+      "pinyin": "nánbian",
+      "english": "south"
+    },
+    {
+      "chinese": "河",
+      "pinyin": "hé",
+      "english": "river"
+    },
+    {
+      "chinese": "东边",
+      "pinyin": "dōngbian",
+      "english": "east"
+    },
+    {
+      "chinese": "西边",
+      "pinyin": "xībian",
+      "english": "west"
+    },
+    {
+      "chinese": "田野",
+      "pinyin": "tiányě",
+      "english": "field"
+    },
+    {
+      "chinese": "空气",
+      "pinyin": "kōngqì",
+      "english": "air"
+    },
+    {
+      "chinese": "新鲜",
+      "pinyin": "xīnxiān",
+      "english": "fresh"
+    },
+    {
+      "chinese": "优美",
+      "pinyin": "yōuměi",
+      "english": "beautiful, graceful"
+    },
+    {
+      "chinese": "热闹",
+      "pinyin": "rènao",
+      "english": "(of a place) lively"
+    },
+    {
+      "chinese": "离",
+      "pinyin": "lí",
+      "english": "away from"
+    },
+    {
+      "chinese": "生活",
+      "pinyin": "shēnghuó",
+      "english": "life; to live"
+    },
+    {
+      "chinese": "车水马龙",
+      "pinyin": "chē shuǐ mǎ lóng",
+      "english": "heavy traffic"
+    },
+    {
+      "chinese": "马",
+      "pinyin": "mǎ",
+      "english": "horse"
+    },
+    {
+      "chinese": "龙",
+      "pinyin": "lóng",
+      "english": "dragon 🐉"
+    },
+    {
+      "chinese": "吵",
+      "pinyin": "chǎo",
+      "english": "noisy"
+    },
+    {
+      "chinese": "东部",
+      "pinyin": "dōngbù",
+      "english": "eastern area"
+    },
+    {
+      "chinese": "西部",
+      "pinyin": "xībù",
+      "english": "western area"
+    },
+    {
+      "chinese": "树",
+      "pinyin": "shù",
+      "english": "tree"
+    },
+    {
+      "chinese": "海",
+      "pinyin": "hǎi",
+      "english": "sea"
+    },
+    {
+      "chinese": "欢迎",
+      "pinyin": "huānyíng",
+      "english": "to welcome"
     }
   ]
 }

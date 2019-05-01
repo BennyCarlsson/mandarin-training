@@ -1,3 +1,4 @@
+Fix problem if to few of a word with that length vocabularyUtils.js
 choose 20 random words (quick play)
 show wich chapter just finished
 add all words

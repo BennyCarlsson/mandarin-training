@@ -120,15 +120,6 @@ const ChooseChapter = props => {
         >
           Book 2 Chapter 5
         </Button>
-        <Button
-          variant="contained"
-          size="large"
-          color="primary"
-          className={classes.button}
-          onClick={() => startChapter("chapter2.6")}
-        >
-          Book 2 Chapter 6
-        </Button>
       </div>
       <p className="createdBy">created by Benny </p>
     </div>

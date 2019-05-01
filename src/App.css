@@ -39,6 +39,13 @@
   text-shadow: 3px 5px 7px black;
   font-weight: 300;
 }
+.theWordSmall {
+  margin: 0px;
+  padding: 0px;
+  text-shadow: 3px 5px 7px black;
+  font-weight: 300;
+}
+
 .wrong-pinyin {
   color: red;
   font-size: 20px;

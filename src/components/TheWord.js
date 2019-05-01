@@ -6,7 +6,13 @@ const TheWord = props => {
       className="theWordDiv"
       onClick={() => props.setShowTranslation(!props.showTranslation)}
     >
-      <h1 className="theWord">
+      <h1
+        className={
+          props.currentWord && props.currentWord.chinese.length > 3
+            ? "theWordSmall"
+            : "theWord"
+        }
+      >
         {props.currentWord && props.currentWord.chinese}
       </h1>
       <span className="wrong-pinyin">

@@ -10,6 +10,7 @@ const styles = {
   button: { marginBottom: "8px" }
 }
 
+//Todo make this dynamic
 const ChooseChapter = props => {
   const { classes, startChapter } = props
 
@@ -119,6 +120,15 @@ const ChooseChapter = props => {
           onClick={() => startChapter("chapter2.5")}
         >
           Book 2 Chapter 5
+        </Button>
+        <Button
+          variant="contained"
+          size="large"
+          color="primary"
+          className={classes.button}
+          onClick={() => startChapter("chapter2.6")}
+        >
+          Book 2 Chapter 6
         </Button>
       </div>
       <p className="createdBy">created by Benny </p>

@@ -1440,5 +1440,122 @@
       "pinyin": "huānyíng",
       "english": "to welcome"
     }
+  ],
+  "chapter2.6": [
+    {
+      "chinese": "机场",
+      "pinyin": "jīchǎng",
+      "english": "airport"
+    },
+    {
+      "chinese": "接",
+      "pinyin": "jiē",
+      "english": "to pick up (somebody)"
+    },
+    {
+      "chinese": "才",
+      "pinyin": "cái",
+      "english": "used to indicate that something takes place later than expected"
+    },
+    {
+      "chinese": "进来",
+      "pinyin": "jìnlái",
+      "english": "to come in"
+    },
+    {
+      "chinese": "进去",
+      "pinyin": "jìnqù",
+      "english": "to go into"
+    },
+    {
+      "chinese": "过来",
+      "pinyin": "guòlái",
+      "english": "to come over"
+    },
+    {
+      "chinese": "父母",
+      "pinyin": "fùmǔ",
+      "english": "father and mother， parents"
+    },
+    {
+      "chinese": "父亲",
+      "pinyin": "fùqīn",
+      "english": "father"
+    },
+    {
+      "chinese": "母亲",
+      "pinyin": "mǔqīn",
+      "english": "mother"
+    },
+    {
+      "chinese": "送",
+      "pinyin": "sòng",
+      "english": "to see (somebody) off"
+    },
+    {
+      "chinese": "怎么回事",
+      "pinyin": "zěnme huí shì",
+      "english": "what's the matter?"
+    },
+    {
+      "chinese": "陪",
+      "pinyin": "péi",
+      "english": "to accompany"
+    },
+    {
+      "chinese": "组织",
+      "pinyin": "zǔzhī",
+      "english": "to organize"
+    },
+    {
+      "chinese": "参观",
+      "pinyin": "cānguān",
+      "english": "to visit, to look around"
+    },
+    {
+      "chinese": "要是的话",
+      "pinyin": "yàoshi dehuà",
+      "english": "if"
+    },
+    {
+      "chinese": "报名",
+      "pinyin": "bào míng",
+      "english": "enter one's name, sign up"
+    },
+    {
+      "chinese": "免费",
+      "pinyin": "miǎnfèi",
+      "english": "to be free of charge"
+    },
+    {
+      "chinese": "具体",
+      "pinyin": "jùtǐ",
+      "english": "in detail"
+    },
+    {
+      "chinese": "情况",
+      "pinyin": "qíngkuàng",
+      "english": "condition, situation"
+    },
+    {
+      "chinese": "通知",
+      "pinyin": "tōngzhī",
+      "english": "notice; to notify, to inform"
+    },
+    {
+      "chinese": "清楚",
+      "pinyin": "qīngchu",
+      "english": "clear"
+    },
+    {
+      "chinese": "办公室",
+      "pinyin": "bàngōngshì",
+      "english": "office"
+    },
+    {
+      "chinese": "手机",
+      "pinyin": "shǒujī",
+      "english": "cell phone"
+    }
   ]
 }

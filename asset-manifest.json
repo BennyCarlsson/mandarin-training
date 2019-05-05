@@ -1,13 +1,13 @@
 {
   "main.css": "/mandarin/static/css/main.45d56616.chunk.css",
-  "main.js": "/mandarin/static/js/main.1a390cb7.chunk.js",
-  "main.js.map": "/mandarin/static/js/main.1a390cb7.chunk.js.map",
-  "static/js/1.1ad18968.chunk.js": "/mandarin/static/js/1.1ad18968.chunk.js",
-  "static/js/1.1ad18968.chunk.js.map": "/mandarin/static/js/1.1ad18968.chunk.js.map",
+  "main.js": "/mandarin/static/js/main.546073fd.chunk.js",
+  "main.js.map": "/mandarin/static/js/main.546073fd.chunk.js.map",
+  "static/js/1.fa9e42ed.chunk.js": "/mandarin/static/js/1.fa9e42ed.chunk.js",
+  "static/js/1.fa9e42ed.chunk.js.map": "/mandarin/static/js/1.fa9e42ed.chunk.js.map",
   "runtime~main.js": "/mandarin/static/js/runtime~main.9098bae0.js",
   "runtime~main.js.map": "/mandarin/static/js/runtime~main.9098bae0.js.map",
   "static/css/main.45d56616.chunk.css.map": "/mandarin/static/css/main.45d56616.chunk.css.map",
   "index.html": "/mandarin/index.html",
-  "precache-manifest.7daa8551d8bf54fe5850d062797379a4.js": "/mandarin/precache-manifest.7daa8551d8bf54fe5850d062797379a4.js",
+  "precache-manifest.a7d7791308b287f79ce0f569211650ee.js": "/mandarin/precache-manifest.a7d7791308b287f79ce0f569211650ee.js",
   "service-worker.js": "/mandarin/service-worker.js"
 }

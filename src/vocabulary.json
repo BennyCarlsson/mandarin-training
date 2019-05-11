@@ -1557,5 +1557,132 @@
       "pinyin": "shǒujī",
       "english": "cell phone"
     }
+  ],
+  "chapter2.7": [
+    {
+      "chinese": "尝",
+      "pinyin": "cháng",
+      "english": "to taste, to try the flavor of"
+    },
+    {
+      "chinese": "西红柿",
+      "pinyin": "xhīhóngshì",
+      "english": "tomato"
+    },
+    {
+      "chinese": "炒",
+      "pinyin": "chǎo",
+      "english": "to fry"
+    },
+    {
+      "chinese": "鸡蛋",
+      "pinyin": "jīdàn",
+      "english": "(hen's) egg 🥚"
+    },
+    {
+      "chinese": "咸",
+      "pinyin": "xián",
+      "english": "salty"
+    },
+    {
+      "chinese": "盐",
+      "pinyin": "yán",
+      "english": "salt"
+    },
+    {
+      "chinese": "又高又大",
+      "pinyin": "yòu gāo yòu dà",
+      "english": "tall and big"
+    },
+    {
+      "chinese": "醋",
+      "pinyin": "cù",
+      "english": "vinegar"
+    },
+    {
+      "chinese": "鱼",
+      "pinyin": "yú",
+      "english": "fish"
+    },
+    {
+      "chinese": "苦",
+      "pinyin": "kǔ",
+      "english": "bitter, suffering, having a hard life"
+    },
+    {
+      "chinese": "苦瓜",
+      "pinyin": "kǔguā",
+      "english": "balsam pear"
+    },
+    {
+      "chinese": "辣",
+      "pinyin": "là",
+      "english": "(of taste) hot, peppery"
+    },
+    {
+      "chinese": "干吗",
+      "pinyin": "gàn má",
+      "english": "do what, why"
+    },
+    {
+      "chinese": "极了",
+      "pinyin": "jí le",
+      "english": "very.."
+    },
+    {
+      "chinese": "主食",
+      "pinyin": "zhǔshí",
+      "english": "main food, staple food"
+    },
+    {
+      "chinese": "饺子",
+      "pinyin": "jiǎozi",
+      "english": "dumpling"
+    },
+    {
+      "chinese": "只听不说",
+      "pinyin": "zhǐ tīng bù shuō",
+      "english": "just listening without talking"
+    },
+    {
+      "chinese": "国家",
+      "pinyin": "guójiā",
+      "english": "country"
+    },
+    {
+      "chinese": "规定",
+      "pinyin": "guīdìng",
+      "english": "regulation, rule; to prescribe"
+    },
+    {
+      "chinese": "满",
+      "pinyin": "mǎn",
+      "english": "full; to reach the limit"
+    },
+    {
+      "chinese": "饱",
+      "pinyin": "bǎo",
+      "english": "(of stomach) full"
+    },
+    {
+      "chinese": "该",
+      "pinyin": "gāi",
+      "english": "should, ought to"
+    },
+    {
+      "chinese": "洗",
+      "pinyin": "xǐ",
+      "english": "to wash"
+    },
+    {
+      "chinese": "盘子",
+      "pinyin": "pánzi",
+      "english": "plate"
+    },
+    {
+      "chinese": "约会",
+      "pinyin": "yuēhuì",
+      "english": "appointment, date"
+    }
   ]
 }

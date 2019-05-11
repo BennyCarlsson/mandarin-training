@@ -7,7 +7,7 @@ const styles = {
   primaryColor: {
     color: "white"
   },
-  button: { marginBottom: "8px" }
+  button: { marginBottom: "4px", height: "56px" }
 }
 
 //Todo make this dynamic
@@ -29,7 +29,7 @@ const ChooseChapter = props => {
           className={classes.button}
           onClick={() => startChapter("chapter1")}
         >
-          Chapter 1
+          Book 1 Chapter 1
         </Button>
         <Button
           variant="contained"
@@ -38,7 +38,7 @@ const ChooseChapter = props => {
           className={classes.button}
           onClick={() => startChapter("chapter12")}
         >
-          Chapter 12
+          Book 1 Chapter 12
         </Button>
         <Button
           variant="contained"
@@ -47,7 +47,7 @@ const ChooseChapter = props => {
           className={classes.button}
           onClick={() => startChapter("chapter13")}
         >
-          Chapter 13
+          Book 1 Chapter 13
         </Button>
         <Button
           variant="contained"
@@ -56,7 +56,7 @@ const ChooseChapter = props => {
           className={classes.button}
           onClick={() => startChapter("chapter14")}
         >
-          Chapter 14
+          Book 1 Chapter 14
         </Button>
         <Button
           variant="contained"
@@ -65,7 +65,7 @@ const ChooseChapter = props => {
           className={classes.button}
           onClick={() => startChapter("chapter15")}
         >
-          Chapter 15
+          Book 1 Chapter 15
         </Button>
         <Button
           variant="contained"
@@ -74,7 +74,7 @@ const ChooseChapter = props => {
           className={classes.button}
           onClick={() => startChapter("chapter16")}
         >
-          Chapter 16
+          Book 1 Chapter 16
         </Button>
         <Button
           variant="contained"
@@ -130,8 +130,16 @@ const ChooseChapter = props => {
         >
           Book 2 Chapter 6
         </Button>
+        <Button
+          variant="contained"
+          size="large"
+          color="primary"
+          className={classes.button}
+          onClick={() => startChapter("chapter2.7")}
+        >
+          Book 2 Chapter 7
+        </Button>
       </div>
-      <p className="createdBy">created by Benny </p>
     </div>
   )
 }

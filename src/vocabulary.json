@@ -1684,5 +1684,152 @@
       "pinyin": "yuēhuì",
       "english": "appointment, date"
     }
+  ],
+  "chapter2.8": [
+    {
+      "chinese": "预报",
+      "pinyin": "yùbào",
+      "english": "forecast"
+    },
+    {
+      "chinese": "晴天",
+      "pinyin": "qíngtiān",
+      "english": "sunny day"
+    },
+    {
+      "chinese": "最",
+      "pinyin": "zuì",
+      "english": "most"
+    },
+    {
+      "chinese": "温度",
+      "pinyin": "wēndù",
+      "english": "temperature"
+    },
+    {
+      "chinese": "度",
+      "pinyin": "dù",
+      "english": "degree"
+    },
+    {
+      "chinese": "低",
+      "pinyin": "dī",
+      "english": "low"
+    },
+    {
+      "chinese": "暖和",
+      "pinyin": "nuǎnhuo",
+      "english": "warm"
+    },
+    {
+      "chinese": "春天",
+      "pinyin": "chūntiān",
+      "english": "spring"
+    },
+    {
+      "chinese": "季节",
+      "pinyin": "jìjié",
+      "english": "season"
+    },
+    {
+      "chinese": "夏天",
+      "pinyin": "xiàtiān",
+      "english": "summer"
+    },
+    {
+      "chinese": "那么",
+      "pinyin": "nàme",
+      "english": "so, like that"
+    },
+    {
+      "chinese": "生日",
+      "pinyin": "shēngrì",
+      "english": "birthday"
+    },
+    {
+      "chinese": "家乡",
+      "pinyin": "jiāxiāng",
+      "english": "hometown"
+    },
+    {
+      "chinese": "这么",
+      "pinyin": "zhème",
+      "english": "so, like this"
+    },
+    {
+      "chinese": "秋天",
+      "pinyin": "qiūtiān",
+      "english": "autumn"
+    },
+    {
+      "chinese": "差不多",
+      "pinyin": "chàbuduō",
+      "english": "almost, nearly, about the same"
+    },
+    {
+      "chinese": "冬天",
+      "pinyin": "dōngtiān",
+      "english": "winter"
+    },
+    {
+      "chinese": "比",
+      "pinyin": "bǐ",
+      "english": "than"
+    },
+    {
+      "chinese": "凉快",
+      "pinyin": "liángkuai",
+      "english": "cool"
+    },
+    {
+      "chinese": "左右",
+      "pinyin": "zuǒyòu",
+      "english": "about, around"
+    },
+    {
+      "chinese": "下雨",
+      "pinyin": "xià yǔ",
+      "english": "to rain"
+    },
+    {
+      "chinese": "和",
+      "pinyin": "hé",
+      "english": "and"
+    },
+    {
+      "chinese": "太阳",
+      "pinyin": "tàiyàng",
+      "english": "sun"
+    },
+    {
+      "chinese": "刮风",
+      "pinyin": "guā fēng",
+      "english": "(wind) blow"
+    },
+    {
+      "chinese": "风",
+      "pinyin": "fēng",
+      "english": "wind"
+    },
+    {
+      "chinese": "气温",
+      "pinyin": "qìwēn",
+      "english": "weather temperature"
+    },
+    {
+      "chinese": "零下",
+      "pinyin": "língxià",
+      "english": "below zero"
+    },
+    {
+      "chinese": "更",
+      "pinyin": "gèng",
+      "english": "more"
+    },
+    {
+      "chinese": "下雪",
+      "pinyin": "xià xuě",
+      "english": "to snow"
+    }
   ]
 }

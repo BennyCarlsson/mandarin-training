@@ -7,7 +7,7 @@ import LinearProgress from "@material-ui/core/LinearProgress"
 const styles = theme => ({
   linearProgressDeterminate: {
     backgroundColor: "#8f9bee",
-    width: "100%"
+    width: "100vw"
   },
   linearProgressDeterminateBar: {
     backgroundColor: "#3f51b5"

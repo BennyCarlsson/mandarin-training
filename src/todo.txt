@@ -1,5 +1,12 @@
 Fix problem if to few of a word with that length vocabularyUtils.js
 choose 10 random words (quick play)
-more style
+
 make icon blue
 readme
+
+more style:
+  white
+  title when choosing chapter
+  Result Page (remove list)
+  footer (name, version)
+  back button while playing

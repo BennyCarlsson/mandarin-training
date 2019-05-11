@@ -5,7 +5,8 @@ import Button from "@material-ui/core/Button"
 
 const styles = {
   primaryColor: {
-    color: "white"
+    color: "white",
+    position: "absolute"
   },
   button: { marginBottom: "4px", height: "56px" }
 }

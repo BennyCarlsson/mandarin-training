@@ -1,27 +1,19 @@
 import React from "react"
-import Typography from "@material-ui/core/Typography"
 import { withStyles } from "@material-ui/core/styles"
 import Button from "@material-ui/core/Button"
+import ChooseChapterTitle from "./ChooseChapterTitle"
 
 const styles = {
-  primaryColor: {
-    color: "white",
-    position: "absolute"
-  },
   button: { marginBottom: "4px", height: "56px" }
 }
 
 //Todo make this dynamic
 const ChooseChapter = props => {
-  const { classes, startChapter } = props
+  const { classes, startChapter, chooseChapterScrollTop } = props
 
   return (
     <div className="chooseChapterWrapper">
-      <div className="pickChapterTitle">
-        <Typography style={styles.primaryColor} variant="display1" gutterBottom>
-          Level A Chinese Quize
-        </Typography>
-      </div>
+      <ChooseChapterTitle chooseChapterScrollTop={chooseChapterScrollTop} />
       <div className="chooseChapter">
         <Button
           variant="contained"

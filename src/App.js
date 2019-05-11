@@ -7,6 +7,16 @@ import BetaVersionTag from "./components/BetaVersionTag"
 import ChooseChapter from "./components/ChooseChapters"
 
 class App extends Component {
+  AppDidMount = node => {
+    if (node) {
+      node.addEventListener("scroll", this.scrollListener)
+    }
+  }
+
+  scrollListener = event => {
+    this.setState({ chooseChapterScrollTop: event.target.scrollTop })
+  }
+
   state = {
     gameWords: [],
     wrongAnswers: [],
@@ -15,7 +25,8 @@ class App extends Component {
     questionIndex: 0,
     answeredWrong: false,
     showStartPage: true,
-    showTranslation: false
+    showTranslation: false,
+    chooseChapterScrollTop: 0
   }
 
   replay = () => {
@@ -100,10 +111,13 @@ class App extends Component {
   render() {
     // Game logic here works but is a mess Todo
     return (
-      <div className="App">
+      <div ref={this.AppDidMount} className="App">
         <BetaVersionTag />
         {this.state.showStartPage ? (
-          <ChooseChapter startChapter={this.startChapter} />
+          <ChooseChapter
+            chooseChapterScrollTop={this.state.chooseChapterScrollTop}
+            startChapter={this.startChapter}
+          />
         ) : this.isGameFinished() ? (
           <ResultPage
             wrongAnswers={this.state.wrongAnswers}

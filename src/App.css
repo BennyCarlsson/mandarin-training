@@ -4,6 +4,7 @@
   max-height: 100vh;
   color: white;
   overflow: auto;
+  scroll-snap-type: y mandatory;
 }
 .whiteText {
   color: white;
@@ -24,8 +25,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .resultPageWrapper {
   min-height: 100vh;
@@ -102,15 +103,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 65vh;
   text-align: center;
+  scroll-snap-align: start;
 }
 
 .chooseChapter {
   display: flex;
   flex-direction: column;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  scroll-snap-align: start;
 }
 
 .test {

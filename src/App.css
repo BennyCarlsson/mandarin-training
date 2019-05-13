@@ -136,3 +136,9 @@
   right: 8px;
   color: #5a5a5b;
 }
+
+.backButton {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}

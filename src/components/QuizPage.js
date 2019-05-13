@@ -3,6 +3,7 @@ import Options from "./Options"
 import TheWord from "./TheWord"
 import { withStyles } from "@material-ui/core/styles"
 import LinearProgress from "@material-ui/core/LinearProgress"
+import Icon from "@material-ui/core/Icon"
 
 const styles = theme => ({
   linearProgressDeterminate: {
@@ -16,9 +17,12 @@ const styles = theme => ({
 
 class QuizPage extends Component {
   render() {
-    const { classes, progress } = this.props
+    const { classes, progress, replay } = this.props
     return (
       <div className="quizPageWrapper">
+        <Icon onClick={() => replay()} className="backButton">
+          arrow_back
+        </Icon>
         <TheWord
           currentWord={this.props.getCurrentWord()}
           answeredWrong={this.props.answeredWrong}

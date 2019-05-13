@@ -125,6 +125,7 @@ class App extends Component {
           />
         ) : (
           <QuizPage
+            replay={this.replay}
             getCurrentWord={this.getCurrentWord}
             answeredWrong={this.state.answeredWrong}
             gameWords={this.state.gameWords}

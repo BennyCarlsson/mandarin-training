@@ -4,5 +4,4 @@ readme
 
 more style:
   Result Page (remove list)
-  back button while playing
   animation on newscreen

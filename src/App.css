@@ -115,7 +115,13 @@
   padding-right: 8px;
   scroll-snap-align: start;
 }
-
+.startPageFooter {
+  display: flex;
+  color: #979a9c;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 16px;
+}
 .test {
   width: 100%;
   display: flex;

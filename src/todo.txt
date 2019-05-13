@@ -4,5 +4,5 @@ readme
 
 more style:
   Result Page (remove list)
-  footer (name, version)
   back button while playing
+  animation on newscreen

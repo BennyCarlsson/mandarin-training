@@ -3,7 +3,6 @@ import { getWordsRandomized, scrambleOptions } from "./vocabularyUtils"
 import "./App.css"
 import QuizPage from "./components/QuizPage"
 import { ResultPage } from "./components/ResultPage"
-import BetaVersionTag from "./components/BetaVersionTag"
 import ChooseChapter from "./components/ChooseChapters"
 
 class App extends Component {
@@ -112,7 +111,6 @@ class App extends Component {
     // Game logic here works but is a mess Todo
     return (
       <div ref={this.AppDidMount} className="App">
-        <BetaVersionTag />
         {this.state.showStartPage ? (
           <ChooseChapter
             chooseChapterScrollTop={this.state.chooseChapterScrollTop}

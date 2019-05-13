@@ -4,7 +4,6 @@ import Typography from "@material-ui/core/Typography"
 class ChooseChapterTitle extends React.Component {
   render() {
     const { chooseChapterScrollTop } = this.props
-    console.log("asd", chooseChapterScrollTop)
     return (
       <div className="pickChapterTitle">
         <Typography

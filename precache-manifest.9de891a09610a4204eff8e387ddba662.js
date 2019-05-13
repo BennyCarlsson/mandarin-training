@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/mandarin/static/js/runtime~main.9098bae0.js"
   },
   {
-    "revision": "6d66babb45f5db137389",
-    "url": "/mandarin/static/js/main.6d66babb.chunk.js"
+    "revision": "e291ad43b8026471f547",
+    "url": "/mandarin/static/js/main.e291ad43.chunk.js"
   },
   {
     "revision": "237ac4c49c55ede048f9",
     "url": "/mandarin/static/js/1.237ac4c4.chunk.js"
   },
   {
-    "revision": "6d66babb45f5db137389",
-    "url": "/mandarin/static/css/main.c0ef9ddd.chunk.css"
+    "revision": "e291ad43b8026471f547",
+    "url": "/mandarin/static/css/main.13336651.chunk.css"
   },
   {
-    "revision": "b5a8332237a723c0966538b4ab1552ba",
+    "revision": "4e4f8a7dbefff6721c6ed7fe3b341b22",
     "url": "/mandarin/index.html"
   }
 ];

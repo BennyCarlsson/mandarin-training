@@ -7,8 +7,7 @@ const PageFooter = () => {
       <span className="footerText">
         Send any feedback or questions to carlsson.benny93@gmail.com
       </span>
-      <span>
-        <span className="footerVersionNr"> v.1.0.2</span>
+      <span className="versionNrAndGithubLogo">
         <span
           onClick={() =>
             window.open("https://github.com/BennyCarlsson/mandarin", "_blank")
@@ -16,6 +15,7 @@ const PageFooter = () => {
         >
           <Icon className={"fab fa-github"} />
         </span>
+        <span className="footerVersionNr"> v.1.0.2</span>
       </span>
     </div>
   )

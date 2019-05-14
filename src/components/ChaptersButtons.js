@@ -11,6 +11,15 @@ const ChapterButtons = props => {
         size="large"
         color="primary"
         className={classes.button}
+        onClick={() => startChapter("chapterTest")}
+      >
+        test
+      </Button>
+      <Button
+        variant="contained"
+        size="large"
+        color="primary"
+        className={classes.button}
         onClick={() => startChapter("chapter1")}
       >
         Book 1 Chapter 1

@@ -3,7 +3,6 @@ import { withTheme } from "@material-ui/core/styles"
 import Fab from "@material-ui/core/Fab"
 import Typography from "@material-ui/core/Typography"
 import Icon from "@material-ui/core/Icon"
-import ListWrongAnswers from "./ListWrongAnswers"
 import Button from "@material-ui/core/Button"
 
 export class ResultPage extends Component {
@@ -40,11 +39,6 @@ export class ResultPage extends Component {
           replayIncorrectWords={replayIncorrectWords}
           numberOfWrongAnswers={numberOfWrongAnswers}
         />
-        {numberOfWrongAnswers > 0 ? (
-          <ListWrongAnswers wrongAnswers={wrongAnswers} />
-        ) : (
-          ""
-        )}
       </div>
     )
   }

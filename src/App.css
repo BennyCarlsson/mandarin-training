@@ -4,7 +4,6 @@
   max-height: 100vh;
   color: white;
   overflow: auto;
-  scroll-snap-type: y mandatory;
 }
 .whiteText {
   color: white;
@@ -106,7 +105,6 @@
   align-items: center;
   height: 65vh;
   text-align: center;
-  scroll-snap-align: start;
 }
 
 .chooseChapter {
@@ -114,7 +112,6 @@
   flex-direction: column;
   padding-left: 8px;
   padding-right: 8px;
-  scroll-snap-align: start;
 }
 .startPageFooter {
   display: flex;
@@ -122,7 +119,8 @@
   font-size: 14px;
   line-height: 1.6;
   margin-top: 16px;
-  justify-content: space-evenly;
+  margin-bottom: 16px;
+  justify-content: space-between;
 }
 .test {
   width: 100%;
@@ -139,8 +137,28 @@
   color: #5a5a5b;
 }
 
+.versionNrAndGithubLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .backButton {
   position: absolute;
   top: 8px;
   left: 8px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .App {
+    scroll-snap-type: y mandatory;
+  }
+  .pickChapterTitle {
+    scroll-snap-align: start;
+  }
+
+  .chooseChapter {
+    scroll-snap-align: start;
+  }
 }

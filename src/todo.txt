@@ -3,5 +3,5 @@ choose 10 random words (quick play)
 readme
 
 more style:
-  Result Page (remove list)
+  Result Page
   animation on newscreen

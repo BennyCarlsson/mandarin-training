@@ -15,7 +15,7 @@ class ChooseChapterTitle extends React.Component {
           variant="display1"
           gutterBottom
         >
-          Level A Chinese Quize
+          Level A Chinese Quiz
         </Typography>
       </div>
     )

@@ -5,7 +5,7 @@ const PageFooter = () => {
   return (
     <div className="startPageFooter">
       <span className="footerText">
-        Send any feedback to carlsson.benny93@gmail.com
+        Send any feedback or questions to carlsson.benny93@gmail.com
       </span>
       <span>
         <span className="footerVersionNr"> v.1.0.0</span>

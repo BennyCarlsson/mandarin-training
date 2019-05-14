@@ -8,7 +8,7 @@ const TheWord = props => {
     >
       <h1
         className={
-          props.currentWord && props.currentWord.chinese.length > 3
+          props.currentWord && props.currentWord.chinese.length > 2
             ? "theWordSmall"
             : "theWord"
         }

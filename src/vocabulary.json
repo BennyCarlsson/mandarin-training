@@ -1831,5 +1831,147 @@
       "pinyin": "xià xuě",
       "english": "to snow"
     }
+  ],
+  "chapter2.9": [
+    {
+      "chinese": "摔",
+      "pinyin": "shuāi",
+      "english": "to lose one's balance, to fall, to tumble"
+    },
+    {
+      "chinese": "伤",
+      "pinyin": "shāng",
+      "english": "to hurt"
+    },
+    {
+      "chinese": "胳膊",
+      "pinyin": "gēbo",
+      "english": "arm"
+    },
+    {
+      "chinese": "疼",
+      "pinyin": "téng",
+      "english": "ache"
+    },
+    {
+      "chinese": "破",
+      "pinyin": "pò",
+      "english": "torn"
+    },
+    {
+      "chinese": "检查",
+      "pinyin": "jiǎnchá",
+      "english": "to check"
+    },
+    {
+      "chinese": "坏",
+      "pinyin": "huài",
+      "english": "ruined, broken"
+    },
+    {
+      "chinese": "办",
+      "pinyin": "bàn",
+      "english": "to do"
+    },
+    {
+      "chinese": "警察",
+      "pinyin": "jǐngchá",
+      "english": "policeman"
+    },
+    {
+      "chinese": "撞",
+      "pinyin": "zhuàng",
+      "english": "to bump against, to collide"
+    },
+    {
+      "chinese": "突然",
+      "pinyin": "tūrán",
+      "english": "sudden(ly)"
+    },
+    {
+      "chinese": "着",
+      "pinyin": "zhe",
+      "english": "used to indicate the continuation of an action or state"
+    },
+    {
+      "chinese": "雨衣",
+      "pinyin": "yǔyī",
+      "english": "raincoat"
+    },
+    {
+      "chinese": "手",
+      "pinyin": "shǒu",
+      "english": "hand"
+    },
+    {
+      "chinese": "拿",
+      "pinyin": "ná",
+      "english": "to carry ( something in hand)"
+    },
+    {
+      "chinese": "大预算",
+      "pinyin": "dǎ yǔsǎn",
+      "english": "hold the umbrella ☂"
+    },
+    {
+      "chinese": "雨伞",
+      "pinyin": "dǎ yǔsǎn",
+      "english": "umbrella 🌂"
+    },
+    {
+      "chinese": "低头",
+      "pinyin": "dī tóu",
+      "english": "to lower one's head"
+    },
+    {
+      "chinese": "头",
+      "pinyin": "tóu",
+      "english": "head"
+    },
+    {
+      "chinese": "结果",
+      "pinyin": "jiéguǒ",
+      "english": "result"
+    },
+    {
+      "chinese": "倒",
+      "pinyin": "dǎo",
+      "english": "to fall, to topple"
+    },
+    {
+      "chinese": "小心",
+      "pinyin": "xiǎoxīn",
+      "english": "careful"
+    },
+    {
+      "chinese": "责任",
+      "pinyin": "zérèn",
+      "english": "responsibility, duty"
+    },
+    {
+      "chinese": "这样",
+      "pinyin": "zhèyàng",
+      "english": "this way, like this"
+    },
+    {
+      "chinese": "修理",
+      "pinyin": "xiūlǐ",
+      "english": "to repair"
+    },
+    {
+      "chinese": "修",
+      "pinyin": "xiū",
+      "english": "to repair"
+    },
+    {
+      "chinese": "上班",
+      "pinyin": "shàng bān",
+      "english": "come or go to work"
+    },
+    {
+      "chinese": "下班",
+      "pinyin": "xià bān",
+      "english": "come or go off work"
+    }
   ]
 }

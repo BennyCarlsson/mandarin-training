@@ -8,7 +8,7 @@ const PageFooter = () => {
         Send any feedback or questions to carlsson.benny93@gmail.com
       </span>
       <span>
-        <span className="footerVersionNr"> v.1.0.0</span>
+        <span className="footerVersionNr"> v.1.0.2</span>
         <span
           onClick={() =>
             window.open("https://github.com/BennyCarlsson/mandarin", "_blank")

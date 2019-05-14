@@ -1,6 +1,7 @@
 Fix problem if to few of a word with that length vocabularyUtils.js
 choose 10 random words (quick play)
 readme
+analytics
 
 more style:
   Result Page

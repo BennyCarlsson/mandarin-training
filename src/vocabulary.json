@@ -1,4 +1,11 @@
 {
+  "test": [
+    {
+      "chinese": "您",
+      "pinyin": "nín",
+      "english": "you"
+    }
+  ],
   "chapter1": [
     {
       "chinese": "您",
@@ -1915,7 +1922,7 @@
     },
     {
       "chinese": "雨伞",
-      "pinyin": "dǎ yǔsǎn",
+      "pinyin": "yǔsǎn",
       "english": "umbrella 🌂"
     },
     {

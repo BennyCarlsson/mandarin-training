@@ -4,6 +4,7 @@ import "./App.css"
 import QuizPage from "./components/QuizPage"
 import { ResultPage } from "./components/ResultPage"
 import ChooseChapter from "./components/ChooseChapters"
+import { CSSTransition } from "react-transition-group"
 
 class App extends Component {
   AppDidMount = node => {
@@ -106,36 +107,58 @@ class App extends Component {
       showStartPage: false
     })
   }
+  renderChooseChapter = () => {
+    return (
+      <ChooseChapter
+        chooseChapterScrollTop={this.state.chooseChapterScrollTop}
+        startChapter={this.startChapter}
+      />
+    )
+  }
 
+  renderResultPage = () => {
+    return (
+      <ResultPage
+        wrongAnswers={this.state.wrongAnswers}
+        gameWords={this.state.gameWords}
+        replay={this.replay}
+        replayIncorrectWords={this.replayIncorrectWords}
+      />
+    )
+  }
+
+  renderQuizPage = () => {
+    return (
+      <QuizPage
+        replay={this.replay}
+        getCurrentWord={this.getCurrentWord}
+        answeredWrong={this.state.answeredWrong}
+        gameWords={this.state.gameWords}
+        optionPress={this.optionPress}
+        scrambledOptions={this.state.scrambledOptions}
+        progress={this.getGameProgress()}
+        setShowTranslation={this.setShowTranslation}
+        showTranslation={this.state.showTranslation}
+      />
+    )
+  }
   render() {
     // Game logic here works but is a mess Todo
+    console.log("1", this.state.showStartPage)
+    console.log("2", this.isGameFinished())
     return (
       <div ref={this.AppDidMount} className="App">
-        {this.state.showStartPage ? (
-          <ChooseChapter
-            chooseChapterScrollTop={this.state.chooseChapterScrollTop}
-            startChapter={this.startChapter}
-          />
-        ) : this.isGameFinished() ? (
-          <ResultPage
-            wrongAnswers={this.state.wrongAnswers}
-            gameWords={this.state.gameWords}
-            replay={this.replay}
-            replayIncorrectWords={this.replayIncorrectWords}
-          />
-        ) : (
-          <QuizPage
-            replay={this.replay}
-            getCurrentWord={this.getCurrentWord}
-            answeredWrong={this.state.answeredWrong}
-            gameWords={this.state.gameWords}
-            optionPress={this.optionPress}
-            scrambledOptions={this.state.scrambledOptions}
-            progress={this.getGameProgress()}
-            setShowTranslation={this.setShowTranslation}
-            showTranslation={this.state.showTranslation}
-          />
-        )}
+        {this.renderChooseChapter()}
+        {!this.state.showStartPage &&
+          this.isGameFinished() &&
+          this.renderResultPage()}
+        <CSSTransition
+          in={!this.state.showStartPage && !this.isGameFinished()}
+          timeout={300}
+          classNames="my-node"
+        >
+          {this.renderQuizPage()}
+        </CSSTransition>
       </div>
     )
   }

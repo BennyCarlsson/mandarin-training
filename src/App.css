@@ -1,9 +1,13 @@
+#root {
+  overflow-x: hidden;
+}
 .App {
   background-color: #282c34;
   min-height: 100vh;
   max-height: 100vh;
   color: white;
   overflow: auto;
+  overflow-x: hidden;
 }
 .whiteText {
   color: white;
@@ -17,22 +21,63 @@
 .listItemText {
   font-size: 2rem;
 }
+
 .quizPageWrapper {
+  display: none;
   min-height: 100vh;
   max-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 8px;
-  padding-right: 8px;
+  background-color: #282c34;
 }
+
+.my-node-enter {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 100vw;
+}
+.my-node-enter-active {
+  transition: all 300ms;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.my-node-enter-done {
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+
+.my-node-exit {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.my-node-exit-active {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 100vw;
+  transition: all 300ms;
+}
+.my-node-exit-done {
+  display: none;
+}
+
 .resultPageWrapper {
   min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 0;
+  background-color: #282c34;
 }
 .theWord {
   font-size: 8em;
@@ -67,7 +112,7 @@
 .optionsDiv {
   display: grid;
   grid-template-columns: 50% 50%;
-  width: 100%;
+  width: calc(100% - 16px);
   grid-column-gap: 8px;
   grid-row-gap: 8px;
   overflow: hidden;
@@ -152,7 +197,7 @@
 
 @media only screen and (max-width: 1024px) {
   .App {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
   }
   .pickChapterTitle {
     scroll-snap-align: start;

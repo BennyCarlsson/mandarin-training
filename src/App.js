@@ -143,9 +143,6 @@ class App extends Component {
     )
   }
   render() {
-    // Game logic here works but is a mess Todo
-    console.log("1", this.state.showStartPage)
-    console.log("2", this.isGameFinished())
     return (
       <div ref={this.AppDidMount} className="App">
         {this.renderChooseChapter()}

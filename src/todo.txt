@@ -1,4 +1,7 @@
 Fix problem if to few of a word with that length vocabularyUtils.js
 choose 10 random words (quick play)
 readme
-animation on newscreen
+
+animation on newscreen ->result page
+
+->css naming on animation!

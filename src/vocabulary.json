@@ -1980,5 +1980,122 @@
       "pinyin": "xià bān",
       "english": "come or go off work"
     }
+  ],
+  "chapter2.10": [
+    {
+      "chinese": "相信",
+      "pinyin": "xiānxìn",
+      "english": "to belive"
+    },
+    {
+      "chinese": "鬼",
+      "pinyin": "guǐ",
+      "english": "ghost 👻"
+    },
+    {
+      "chinese": "一会儿",
+      "pinyin": "yíhuìr",
+      "english": "a short while"
+    },
+    {
+      "chinese": "站",
+      "pinyin": "zhàn",
+      "english": "to stand"
+    },
+    {
+      "chinese": "起来",
+      "pinyin": "qǐlái",
+      "english": "to rise up, to stand up"
+    },
+    {
+      "chinese": "声音",
+      "pinyin": "shēngyīn",
+      "english": "sound"
+    },
+    {
+      "chinese": "半夜",
+      "pinyin": "bànyè",
+      "english": "midnight"
+    },
+    {
+      "chinese": "开灯",
+      "pinyin": "kāi dēng",
+      "english": "to turn on lamp"
+    },
+    {
+      "chinese": "敢",
+      "pinyin": "gǎn",
+      "english": "to dare"
+    },
+    {
+      "chinese": "好像",
+      "pinyin": "hǎoxiàng",
+      "english": "seem, be like, as if"
+    },
+    {
+      "chinese": "打开",
+      "pinyin": "dǎkāi",
+      "english": "to open"
+    },
+    {
+      "chinese": "抽屉",
+      "pinyin": "chōuti",
+      "english": "drawer"
+    },
+    {
+      "chinese": "待",
+      "pinyin": "dāi",
+      "english": "to stay"
+    },
+    {
+      "chinese": "轻",
+      "pinyin": "qīng",
+      "english": "light, slight, gentle"
+    },
+    {
+      "chinese": "肯定",
+      "pinyin": "kěndìng",
+      "english": "to approve, to confirm; positive, sure"
+    },
+    {
+      "chinese": "窗户",
+      "pinyin": "chuānghu",
+      "english": "window"
+    },
+    {
+      "chinese": "关",
+      "pinyin": "guān",
+      "english": "to close, to turn off"
+    },
+    {
+      "chinese": "小偷",
+      "pinyin": "xiǎotōu",
+      "english": "thief"
+    },
+    {
+      "chinese": "恐怕",
+      "pinyin": "kǒngpà",
+      "english": "i'm afraid.., maybe"
+    },
+    {
+      "chinese": "偷",
+      "pinyin": "tōu",
+      "english": "to steal"
+    },
+    {
+      "chinese": "拿走",
+      "pinyin": "názǒu",
+      "english": "to take away"
+    },
+    {
+      "chinese": "少",
+      "pinyin": "shǎo",
+      "english": "to lack, to lose"
+    },
+    {
+      "chinese": "钱包",
+      "pinyin": "qiánbāo",
+      "english": "wallet, purse"
+    }
   ]
 }

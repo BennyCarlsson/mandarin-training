@@ -31,14 +31,7 @@ class App extends Component {
 
   replay = () => {
     this.setState({
-      gameWords: [],
-      scrambledOptions: [],
-      wrongAnswers: [],
-      answerOptions: [],
-      questionIndex: 0,
-      answeredWrong: false,
-      showStartPage: true,
-      showTranslation: false
+      showStartPage: true
     })
   }
 
@@ -103,7 +96,10 @@ class App extends Component {
     this.setState({
       gameWords: wordsRandomized,
       scrambledOptions: scrambleOptions(wordsRandomized[0]),
-      showStartPage: false
+      showStartPage: false,
+      questionIndex: 0,
+      answeredWrong: false,
+      showTranslation: false
     })
   }
   renderChooseChapter = () => {
@@ -145,15 +141,16 @@ class App extends Component {
     return (
       <div ref={this.AppDidMount} className="App">
         {this.renderChooseChapter()}
-        {!this.state.showStartPage &&
-          this.isGameFinished() &&
-          this.renderResultPage()}
         <CSSTransition
-          in={!this.state.showStartPage && !this.isGameFinished()}
+          in={!this.state.showStartPage}
           timeout={300}
-          classNames="quizPageWrapper"
+          classNames="quizAndResultWrapper"
         >
-          {this.renderQuizPage()}
+          <div className="quizAndResultWrapper">
+            {this.isGameFinished()
+              ? this.renderResultPage()
+              : this.renderQuizPage()}
+          </div>
         </CSSTransition>
       </div>
     )

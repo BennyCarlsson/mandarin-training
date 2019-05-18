@@ -1,3 +1,6 @@
+html {
+  overflow-x: hidden;
+}
 #root {
   overflow-x: hidden;
 }
@@ -21,9 +24,11 @@
 .listItemText {
   font-size: 2rem;
 }
-
-.quizPageWrapper {
+.quizAndResultWrapper {
   display: none;
+}
+.quizPageWrapper {
+  display: flex;
   min-height: 100vh;
   max-height: 100vh;
   flex-direction: column;
@@ -32,39 +37,39 @@
   background-color: #282c34;
 }
 
-.quizPageWrapper-enter {
+.quizAndResultWrapper-enter {
   display: flex;
   position: absolute;
   top: 0;
   left: 100vw;
 }
-.quizPageWrapper-enter-active {
+.quizAndResultWrapper-enter-active {
   transition: all 300ms;
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
 }
-.quizPageWrapper-enter-done {
+.quizAndResultWrapper-enter-done {
   display: flex;
   position: absolute;
   top: 0;
 }
 
-.quizPageWrapper-exit {
+.quizAndResultWrapper-exit {
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
 }
-.quizPageWrapper-exit-active {
+.quizAndResultWrapper-exit-active {
   display: flex;
   position: absolute;
   top: 0;
   left: 100vw;
   transition: all 300ms;
 }
-.quizPageWrapper-exit-done {
+.quizAndResultWrapper-exit-done {
   display: none;
 }
 

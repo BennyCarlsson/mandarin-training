@@ -1,3 +1,2 @@
-readme
 Refactoring stuff
 Fix problem if to few of a word with that length vocabularyUtils.js

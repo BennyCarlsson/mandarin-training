@@ -6,4 +6,6 @@
 
 ### Works best on mobile [Try it out](https://bennycarlsson.github.io/mandarin/)
 
-![Alt text](readmeImages/1.jpg?raw=true "Optional Title")
+![Alt text](readmeImages/screenshot2.jpg?raw=true "Optional Title")
+![Alt text](readmeImages/screenshot3.jpg?raw=true "Optional Title")
+![Alt text](readmeImages/screenshot1.jpg?raw=true "Optional Title")

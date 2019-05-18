@@ -30,10 +30,9 @@ class App extends Component {
   }
 
   replay = () => {
-    const wordsRandomized = getWordsRandomized()
     this.setState({
-      gameWords: wordsRandomized,
-      scrambledOptions: scrambleOptions(wordsRandomized[0]),
+      gameWords: [],
+      scrambledOptions: [],
       wrongAnswers: [],
       answerOptions: [],
       questionIndex: 0,
@@ -152,7 +151,7 @@ class App extends Component {
         <CSSTransition
           in={!this.state.showStartPage && !this.isGameFinished()}
           timeout={300}
-          classNames="my-node"
+          classNames="quizPageWrapper"
         >
           {this.renderQuizPage()}
         </CSSTransition>

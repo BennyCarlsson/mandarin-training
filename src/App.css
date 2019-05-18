@@ -32,39 +32,39 @@
   background-color: #282c34;
 }
 
-.my-node-enter {
+.quizPageWrapper-enter {
   display: flex;
   position: absolute;
   top: 0;
   left: 100vw;
 }
-.my-node-enter-active {
+.quizPageWrapper-enter-active {
   transition: all 300ms;
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
 }
-.my-node-enter-done {
+.quizPageWrapper-enter-done {
   display: flex;
   position: absolute;
   top: 0;
 }
 
-.my-node-exit {
+.quizPageWrapper-exit {
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
 }
-.my-node-exit-active {
+.quizPageWrapper-exit-active {
   display: flex;
   position: absolute;
   top: 0;
   left: 100vw;
   transition: all 300ms;
 }
-.my-node-exit-done {
+.quizPageWrapper-exit-done {
   display: none;
 }
 

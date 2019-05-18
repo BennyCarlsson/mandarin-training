@@ -1,10 +1,33 @@
 import vocabulary from "./vocabulary"
 
 export const getWordsRandomized = (chapters = ["chapter1"]) => {
+  if (chapters[0] === "quickplay") {
+    return quickPlay()
+  }
   let wordList = vocabulary
   let words = []
   chapters.forEach(chapter => (words = words.concat(wordList[chapter])))
   return shuffle(words.slice())
+}
+const quickPlay = () => {
+  let wordList = vocabulary
+  let words = []
+  for (let chapter in wordList) {
+    words = words.concat(wordList[chapter])
+  }
+  return getRandomFromArray(words, 10)
+}
+const getRandomFromArray = (arr, n) => {
+  let result = new Array(arr)
+  let len = arr.length
+  let taken = []
+  if (n > len) return []
+  while (n--) {
+    var x = Math.floor(Math.random() * len)
+    result[n] = arr[x in taken ? taken[x] : x]
+    taken[x] = --len in taken ? taken[len] : len
+  }
+  return result
 }
 
 const shuffle = array => {

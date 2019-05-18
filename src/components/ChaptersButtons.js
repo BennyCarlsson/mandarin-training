@@ -1,11 +1,22 @@
 import React, { Fragment } from "react"
 import Button from "@material-ui/core/Button"
+import Icon from "@material-ui/core/Icon"
 
 //Todo make this dynamic
 const ChapterButtons = props => {
   const { classes, startChapter } = props
   return (
     <Fragment>
+      <Button
+        variant="contained"
+        size="large"
+        color="primary"
+        className={classes.button}
+        style={{ backgroundColor: "#e0e0e0", color: "rgba(0, 0, 0, 0.87)" }}
+        onClick={() => startChapter("quickplay")}
+      >
+        <Icon>play_arrow</Icon> Quick Play 10 words
+      </Button>
       <Button
         variant="contained"
         size="large"

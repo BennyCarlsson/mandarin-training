@@ -99,7 +99,8 @@ class App extends Component {
       showStartPage: false,
       questionIndex: 0,
       answeredWrong: false,
-      showTranslation: false
+      showTranslation: false,
+      wrongAnswers: []
     })
   }
   renderChooseChapter = () => {

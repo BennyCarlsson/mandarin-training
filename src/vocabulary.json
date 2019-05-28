@@ -2257,5 +2257,132 @@
       "pinyin": "zhǔyi",
       "english": "idea"
     }
+  ],
+  "chapter2.12": [
+    {
+      "chinese": "行李",
+      "pinyin": "xíngli",
+      "english": "luggage"
+    },
+    {
+      "chinese": "推",
+      "pinyin": "tuī",
+      "english": "to push"
+    },
+    {
+      "chinese": "箱子",
+      "pinyin": "xiāngzi",
+      "english": "box, suitcase"
+    },
+    {
+      "chinese": "重",
+      "pinyin": "zhòng",
+      "english": "heavy"
+    },
+    {
+      "chinese": "风紧",
+      "pinyin": "fēngjǐng",
+      "english": "scenery"
+    },
+    {
+      "chinese": "工作人员",
+      "pinyin": "gōngzuò rényuán",
+      "english": "staff, employee"
+    },
+    {
+      "chinese": "超重",
+      "pinyin": "chāo zhòng",
+      "english": "to overweight"
+    },
+    {
+      "chinese": "超过",
+      "pinyin": "chāoguò",
+      "english": "to exceed, to surpass"
+    },
+    {
+      "chinese": "重量",
+      "pinyin": "zhòngliàng",
+      "english": "weight"
+    },
+    {
+      "chinese": "照顾",
+      "pinyin": "zhàogù",
+      "english": "to look after, to show consideration for"
+    },
+    {
+      "chinese": "袋子",
+      "pinyin": "dàizi",
+      "english": "bag"
+    },
+    {
+      "chinese": "提",
+      "pinyin": "tí",
+      "english": "to carry in hand"
+    },
+    {
+      "chinese": "航班",
+      "pinyin": "hángbān",
+      "english": "flight number"
+    },
+    {
+      "chinese": "托运",
+      "pinyin": "tuōyùn",
+      "english": "to consign for shipment"
+    },
+    {
+      "chinese": "留步",
+      "pinyin": "liúbù",
+      "english": "don't bother to see me out"
+    },
+    {
+      "chinese": "热情",
+      "pinyin": "rèqíng",
+      "english": "warm-hearted; warm-heartedness"
+    },
+    {
+      "chinese": "接待",
+      "pinyin": "jiēdài",
+      "english": "to receive, to play host to"
+    },
+    {
+      "chinese": "希望",
+      "pinyin": "xīwàng",
+      "english": "to hope, to wish; hope, wish"
+    },
+    {
+      "chinese": "机会",
+      "pinyin": "jīhuì",
+      "english": "chance"
+    },
+    {
+      "chinese": "一路顺利",
+      "pinyin": "yílù shùnlì",
+      "english": "to have a nice trip"
+    },
+    {
+      "chinese": "顺利",
+      "pinyin": "shùnlì",
+      "english": "smooth, without a hitch"
+    },
+    {
+      "chinese": "保持",
+      "pinyin": "bǎochí",
+      "english": "to keep"
+    },
+    {
+      "chinese": "联系",
+      "pinyin": "liánxì",
+      "english": "relation; to contact"
+    },
+    {
+      "chinese": "发",
+      "pinyin": "fā",
+      "english": "to send"
+    },
+    {
+      "chinese": "电子邮件",
+      "pinyin": "diànzǐ yóujiàn",
+      "english": "e-mail"
+    }
   ]
 }

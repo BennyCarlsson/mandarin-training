@@ -5,6 +5,7 @@ import Icon from "@material-ui/core/Icon"
 //Todo make this dynamic
 const ChapterButtons = props => {
   const { classes, startChapter } = props
+
   return (
     <Fragment>
       <Button
@@ -169,6 +170,15 @@ const ChapterButtons = props => {
         onClick={() => startChapter("chapter2.11")}
       >
         Book 2 Chapter 11
+      </Button>
+      <Button
+        variant="contained"
+        size="large"
+        color="primary"
+        className={classes.button}
+        onClick={() => startChapter("chapter2.12")}
+      >
+        Book 2 Chapter 12
       </Button>
     </Fragment>
   )

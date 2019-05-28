@@ -2280,7 +2280,7 @@
       "english": "heavy"
     },
     {
-      "chinese": "风紧",
+      "chinese": "风景",
       "pinyin": "fēngjǐng",
       "english": "scenery"
     },
@@ -2383,6 +2383,138 @@
       "chinese": "电子邮件",
       "pinyin": "diànzǐ yóujiàn",
       "english": "e-mail"
+    }
+  ],
+  "chapter2.13": [
+    {
+      "chinese": "司机",
+      "pinyin": "sījī",
+      "english": "driver"
+    },
+    {
+      "chinese": "来得及",
+      "pinyin": "láidejí",
+      "english": "to still have enough time to"
+    },
+    {
+      "chinese": "来不及",
+      "pinyin": "láibují",
+      "english": "to not have enough time to"
+    },
+    {
+      "chinese": "担心",
+      "pinyin": "dān xīn",
+      "english": "to worry about, to be worried"
+    },
+    {
+      "chinese": "开",
+      "pinyin": "kāi",
+      "english": "to drive, (of vehicles) to go"
+    },
+    {
+      "chinese": "放心",
+      "pinyin": "fàng xīn",
+      "english": "to feel relieved"
+    },
+    {
+      "chinese": "堵车",
+      "pinyin": "dǔ chē",
+      "english": "to have traffic jam"
+    },
+    {
+      "chinese": "堵",
+      "pinyin": "dǔ",
+      "english": "to stop up, to block up"
+    },
+    {
+      "chinese": "保证",
+      "pinyin": "bǎozhèng",
+      "english": "to assure"
+    },
+    {
+      "chinese": "辛苦",
+      "pinyin": "xīnkǔ",
+      "english": "hard, toilsome, laborious"
+    },
+    {
+      "chinese": "一大早",
+      "pinyin": "yídàzǎo",
+      "english": "at very early time (of a day)"
+    },
+    {
+      "chinese": "当",
+      "pinyin": "dāng",
+      "english": "to be, to act as"
+    },
+    {
+      "chinese": "农民",
+      "pinyin": "nóngmín",
+      "english": "farmer"
+    },
+    {
+      "chinese": "工厂",
+      "pinyin": "gōngchǎng",
+      "english": "factory"
+    },
+    {
+      "chinese": "工人",
+      "pinyin": "gōngrén",
+      "english": "worker"
+    },
+    {
+      "chinese": "辞职",
+      "pinyin": "cí zhí",
+      "english": "to quit one's job"
+    },
+    {
+      "chinese": "二手车",
+      "pinyin": "èrshǒuchē",
+      "english": "second-hand vehicle"
+    },
+    {
+      "chinese": "看上去",
+      "pinyin": "kàn shangqu",
+      "english": "to look, to seem"
+    },
+    {
+      "chinese": "原来",
+      "pinyin": "yuánlái",
+      "english": "original, former; the former time"
+    },
+    {
+      "chinese": "旧",
+      "pinyin": "jiù",
+      "english": "old, used, outdated"
+    },
+    {
+      "chinese": "挣钱",
+      "pinyin": "zhèng qián",
+      "english": "to earn money"
+    },
+    {
+      "chinese": "找麻烦",
+      "pinyin": "zhǎo máfan",
+      "english": "to pick on somebody"
+    },
+    {
+      "chinese": "麻烦",
+      "pinyin": "máfan",
+      "english": "trouble; troublesome; to trouble"
+    },
+    {
+      "chinese": "添麻烦",
+      "pinyin": "tiān máfan",
+      "english": "cause trouble"
+    },
+    {
+      "chinese": "添",
+      "pinyin": "tiān",
+      "english": "to add, to have more"
+    },
+    {
+      "chinese": "流利",
+      "pinyin": "liúlì",
+      "english": "fluent"
     }
   ]
 }

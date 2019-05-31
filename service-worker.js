@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mandarin/precache-manifest.df99ce6816979345bcc673ce2c965f53.js"
+  "/mandarin/precache-manifest.32c2476dde0739202d6bf22424a3e0d4.js"
 );
 
 workbox.clientsClaim();

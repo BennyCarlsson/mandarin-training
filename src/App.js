@@ -5,8 +5,30 @@ import QuizPage from "./components/QuizPage"
 import { ResultPage } from "./components/ResultPage"
 import ChooseChapter from "./components/ChooseChapters"
 import { CSSTransition } from "react-transition-group"
+import UpdateSnackBar from "./components/UpdateSnackBar"
+import * as serviceWorker from "./serviceWorker"
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    serviceWorker.register({
+      onUpdate: this.handleServiceWorkerUpdate
+    })
+  }
+
+  handleServiceWorkerUpdate = registration => {
+    this.setState({ showUpdateSnackBar: true })
+  }
+
+  handleCloseSnackBar = (event, reason) => {
+    if (reason === "clickaway") {
+      console.log("click away")
+      return
+    }
+
+    this.setState({ showUpdateSnackBar: false })
+  }
+
   AppDidMount = node => {
     if (node) {
       node.addEventListener("scroll", this.scrollListener)
@@ -26,7 +48,8 @@ class App extends Component {
     answeredWrong: false,
     showStartPage: true,
     showTranslation: false,
-    chooseChapterScrollTop: 0
+    chooseChapterScrollTop: 0,
+    showUpdateSnackBar: false
   }
 
   replay = () => {
@@ -153,6 +176,10 @@ class App extends Component {
               : this.renderQuizPage()}
           </div>
         </CSSTransition>
+        <UpdateSnackBar
+          handleCloseSnackBar={this.handleCloseSnackBar}
+          showUpdateSnackBar={this.state.showUpdateSnackBar}
+        />
       </div>
     )
   }

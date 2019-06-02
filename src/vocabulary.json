@@ -2516,5 +2516,132 @@
       "pinyin": "liúlì",
       "english": "fluent"
     }
+  ],
+  "chapter2.14": [
+    {
+      "chinese": "日语",
+      "pinyin": "rìyǔ",
+      "english": "Japanese language"
+    },
+    {
+      "chinese": "辅导",
+      "pinyin": "fǔdǎo",
+      "english": "to tutor"
+    },
+    {
+      "chinese": "互相",
+      "pinyin": "hùxiāng",
+      "english": "each other"
+    },
+    {
+      "chinese": "帮助",
+      "pinyin": "bāngzhù",
+      "english": "to help"
+    },
+    {
+      "chinese": "年级",
+      "pinyin": "niánjí",
+      "english": "grade"
+    },
+    {
+      "chinese": "年龄",
+      "pinyin": "niánlíng",
+      "english": "age"
+    },
+    {
+      "chinese": "记性",
+      "pinyin": "jìxing",
+      "english": "memory"
+    },
+    {
+      "chinese": "内容",
+      "pinyin": "nèiróng",
+      "english": "content"
+    },
+    {
+      "chinese": "成绩",
+      "pinyin": "chéngjì",
+      "english": "achivement, result, score"
+    },
+    {
+      "chinese": "分",
+      "pinyin": "fēn",
+      "english": "score, mark"
+    },
+    {
+      "chinese": "刚刚",
+      "pinyin": "gānggāng",
+      "english": "just, only"
+    },
+    {
+      "chinese": "及格",
+      "pinyin": "jígé",
+      "english": "to pass an examination"
+    },
+    {
+      "chinese": "要求",
+      "pinyin": "yāoqiú",
+      "english": "requirement; to require"
+    },
+    {
+      "chinese": "最好",
+      "pinyin": "zuìhǎo",
+      "english": "had better"
+    },
+    {
+      "chinese": "复习",
+      "pinyin": "fùxí",
+      "english": "review; to review"
+    },
+    {
+      "chinese": "准备",
+      "pinyin": "zhǔnbèi",
+      "english": "preparation; to prepare"
+    },
+    {
+      "chinese": "课文",
+      "pinyin": "kèwén",
+      "english": "text"
+    },
+    {
+      "chinese": "口语",
+      "pinyin": "kǒuyǔ",
+      "english": "spoken language"
+    },
+    {
+      "chinese": "听力",
+      "pinyin": "tīnglì",
+      "english": "listening ability"
+    },
+    {
+      "chinese": "谈话",
+      "pinyin": "tán huà",
+      "english": "to talk"
+    },
+    {
+      "chinese": "困难",
+      "pinyin": "kùnnan",
+      "english": "difficult; difficulty"
+    },
+    {
+      "chinese": "练习",
+      "pinyin": "liànxí",
+      "english": "exercise; to practice"
+    },
+    {
+      "chinese": "地点",
+      "pinyin": "dìdiǎn",
+      "english": "place, spot"
+    },
+    {
+      "chinese": "租",
+      "pinyin": "zū",
+      "english": "to rent"
+    },
+    {
+      "chinese": "公寓",
+      "pinyin": "gōngyù",
+      "english": "apartment"
+    }
   ]
 }

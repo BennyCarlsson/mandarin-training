@@ -2643,5 +2643,127 @@
       "pinyin": "gōngyù",
       "english": "apartment"
     }
+  ],
+  "chapter2.15": [
+    {
+      "chinese": "营业员",
+      "pinyin": "yíngyèyuán",
+      "english": "shop assistant"
+    },
+    {
+      "chinese": "退",
+      "pinyin": "tuì",
+      "english": "to return"
+    },
+    {
+      "chinese": "货",
+      "pinyin": "huò",
+      "english": "goods"
+    },
+    {
+      "chinese": "毛衣",
+      "pinyin": "máoyī",
+      "english": "sweater"
+    },
+    {
+      "chinese": "颜色",
+      "pinyin": "yánsè",
+      "english": "color"
+    },
+    {
+      "chinese": "式",
+      "pinyin": "shì",
+      "english": "to try, to rest"
+    },
+    {
+      "chinese": "礼物",
+      "pinyin": "lǐwù",
+      "english": "present 🎁"
+    },
+    {
+      "chinese": "发票",
+      "pinyin": "fāpiào",
+      "english": "receipt"
+    },
+    {
+      "chinese": "盖",
+      "pinyin": "gài",
+      "english": "to put a seal"
+    },
+    {
+      "chinese": "图章",
+      "pinyin": "túzhāng",
+      "english": "seal, stamp"
+    },
+    {
+      "chinese": "没错人",
+      "pinyin": "méi cuòr",
+      "english": "right"
+    },
+    {
+      "chinese": "绿",
+      "pinyin": "lǜ",
+      "english": "green"
+    },
+    {
+      "chinese": "黄",
+      "pinyin": "huáng",
+      "english": "yellow"
+    },
+    {
+      "chinese": "红",
+      "pinyin": "hóng",
+      "english": "red"
+    },
+    {
+      "chinese": "蓝",
+      "pinyin": "lán",
+      "english": "blue"
+    },
+    {
+      "chinese": "岂有此理",
+      "pinyin": "qǐ yǒu cǐ lǐ",
+      "english": "unreasonable, outrageous"
+    },
+    {
+      "chinese": "生气",
+      "pinyin": "shēng qì",
+      "english": "to be mad, to be angry"
+    },
+    {
+      "chinese": "合适",
+      "pinyin": "héshì",
+      "english": "suitable, proper"
+    },
+    {
+      "chinese": "质量",
+      "pinyin": "zhìliàng",
+      "english": "quality"
+    },
+    {
+      "chinese": "服务",
+      "pinyin": "fúwù",
+      "english": "service; to serve"
+    },
+    {
+      "chinese": "态度",
+      "pinyin": "tàidu",
+      "english": "attitude"
+    },
+    {
+      "chinese": "差",
+      "pinyin": "chà",
+      "english": "bad"
+    },
+    {
+      "chinese": "过分",
+      "pinyin": "guòfèn",
+      "english": "excessive, going too far"
+    },
+    {
+      "chinese": "经理",
+      "pinyin": "jīnglǐ",
+      "english": "manager"
+    }
   ]
 }

@@ -2696,7 +2696,7 @@
       "english": "seal, stamp"
     },
     {
-      "chinese": "没错人",
+      "chinese": "没错儿",
       "pinyin": "méi cuòr",
       "english": "right"
     },
@@ -2911,6 +2911,158 @@
       "chinese": "决定",
       "pinyin": "juédìng",
       "english": "to decide; decision"
+    }
+  ],
+  "chapter2.17": [
+    {
+      "chinese": "全身",
+      "pinyin": "quánshēn",
+      "english": "the whole body"
+    },
+    {
+      "chinese": "全",
+      "pinyin": "quán",
+      "english": "whole"
+    },
+    {
+      "chinese": "顿",
+      "pinyin": "dùn",
+      "english": "a measure for meals"
+    },
+    {
+      "chinese": "汉堡包",
+      "pinyin": "hànbǎobāo",
+      "english": "hamburger 🍔"
+    },
+    {
+      "chinese": "除了以外",
+      "pinyin": "chúle yǐwài",
+      "english": "besides, except"
+    },
+    {
+      "chinese": "睡着",
+      "pinyin": "shuì zháo",
+      "english": "to fall asleep"
+    },
+    {
+      "chinese": "上床",
+      "pinyin": "shàng chuáng",
+      "english": "to go to bed"
+    },
+    {
+      "chinese": "精神",
+      "pinyin": "jīngshen",
+      "english": "vigour; vigorous"
+    },
+    {
+      "chinese": "感冒",
+      "pinyin": "gǎnmào",
+      "english": "to catch a cold; cold"
+    },
+    {
+      "chinese": "发烧",
+      "pinyin": "fā shāo",
+      "english": "to run a fever"
+    },
+    {
+      "chinese": "心脏",
+      "pinyin": "xīnzàng",
+      "english": "heart"
+    },
+    {
+      "chinese": "胃",
+      "pinyin": "wèi",
+      "english": "stomach"
+    },
+    {
+      "chinese": "得病",
+      "pinyin": "dé bìng",
+      "english": "to have disease"
+    },
+    {
+      "chinese": "别的",
+      "pinyin": "biéde",
+      "english": "other, others"
+    },
+    {
+      "chinese": "一边一边",
+      "pinyin": "yìbiān yìbiān",
+      "english": "to do "
+    },
+    {
+      "chinese": "紧张",
+      "pinyin": "jǐnzhāng",
+      "english": "tense, nervous; in short supply"
+    },
+    {
+      "chinese": "学期",
+      "pinyin": "xuéqī",
+      "english": "semester"
+    },
+    {
+      "chinese": "开药方",
+      "pinyin": "kāi yàofāng",
+      "english": "to write out a prescription"
+    },
+    {
+      "chinese": "药方",
+      "pinyin": "yàofāng",
+      "english": "prescription"
+    },
+    {
+      "chinese": "中药",
+      "pinyin": "zhōngyào",
+      "english": "traditional Chinese medicine"
+    },
+    {
+      "chinese": "药",
+      "pinyin": "yào",
+      "english": "medicin"
+    },
+    {
+      "chinese": "西药",
+      "pinyin": "xīyào",
+      "english": "Western medicine"
+    },
+    {
+      "chinese": "打针",
+      "pinyin": "dǎ zhēn",
+      "english": "to give or have an injection"
+    },
+    {
+      "chinese": "早晨",
+      "pinyin": "zǎochén",
+      "english": "early morning"
+    },
+    {
+      "chinese": "跑步",
+      "pinyin": "pǎo bù",
+      "english": "to jog"
+    },
+    {
+      "chinese": "躺",
+      "pinyin": "tǎng",
+      "english": "to lie"
+    },
+    {
+      "chinese": "笑话",
+      "pinyin": "xiàohua",
+      "english": "joke"
+    },
+    {
+      "chinese": "电影",
+      "pinyin": "diànyǐng",
+      "english": "movie"
+    },
+    {
+      "chinese": "开玩笑",
+      "pinyin": "kāi wánxiào",
+      "english": "kidding"
+    },
+    {
+      "chinese": "玩笑",
+      "pinyin": "wánxiào",
+      "english": "joke"
     }
   ]
 }

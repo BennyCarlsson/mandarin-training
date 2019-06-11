@@ -15,7 +15,7 @@ const PageFooter = () => {
         >
           <Icon className={"fab fa-github"} />
         </span>
-        <span className="footerVersionNr"> v.1.3.4</span>
+        <span className="footerVersionNr"> v.1.3.5</span>
       </span>
     </div>
   )

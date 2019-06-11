@@ -2765,5 +2765,152 @@
       "pinyin": "jīnglǐ",
       "english": "manager"
     }
+  ],
+  "chapter2.16": [
+    {
+      "chinese": "中介",
+      "pinyin": "zhōngjiè",
+      "english": "agency"
+    },
+    {
+      "chinese": "两室一厅",
+      "pinyin": "liǎng shì yì tīng",
+      "english": "two bedroms and one living room"
+    },
+    {
+      "chinese": "卧室",
+      "pinyin": "wòshì",
+      "english": "bedroom"
+    },
+    {
+      "chinese": "客厅",
+      "pinyin": "kètīng",
+      "english": "living room, parlor"
+    },
+    {
+      "chinese": "空调",
+      "pinyin": "kōngtiáo",
+      "english": "air-conditioner"
+    },
+    {
+      "chinese": "什么的",
+      "pinyin": "shénmede",
+      "english": "son on, things like that"
+    },
+    {
+      "chinese": "样",
+      "pinyin": "yàng",
+      "english": "sort, kind"
+    },
+    {
+      "chinese": "房东",
+      "pinyin": "fángdōng",
+      "english": "owner of a house, landlord"
+    },
+    {
+      "chinese": "费",
+      "pinyin": "fèi",
+      "english": "fee"
+    },
+    {
+      "chinese": "付",
+      "pinyin": "fù",
+      "english": "to pay"
+    },
+    {
+      "chinese": "电梯",
+      "pinyin": "diàntī",
+      "english": "elevator"
+    },
+    {
+      "chinese": "爬",
+      "pinyin": "pá",
+      "english": "to climb"
+    },
+    {
+      "chinese": "锻炼",
+      "pinyin": "duànliàn",
+      "english": "to do physical exercises"
+    },
+    {
+      "chinese": "厨房",
+      "pinyin": "chúfáng",
+      "english": "kitchen"
+    },
+    {
+      "chinese": "卫生间",
+      "pinyin": "wèishēngjiān",
+      "english": "toilet, bathroom"
+    },
+    {
+      "chinese": "家具",
+      "pinyin": "jiājù",
+      "english": "furniture"
+    },
+    {
+      "chinese": "电器",
+      "pinyin": "diànqì",
+      "english": "electrical appliance"
+    },
+    {
+      "chinese": "冰箱",
+      "pinyin": "bīngxiāng",
+      "english": "refrigerator"
+    },
+    {
+      "chinese": "洗衣机",
+      "pinyin": "xǐyījī",
+      "english": "washing machine"
+    },
+    {
+      "chinese": "各种",
+      "pinyin": "gè zhǒng",
+      "english": "different kinds of, all kinds of"
+    },
+    {
+      "chinese": "种",
+      "pinyin": "zhǒng",
+      "english": "sort, kind"
+    },
+    {
+      "chinese": "洗澡",
+      "pinyin": "xǐ zǎo",
+      "english": "take a bath, have a shower"
+    },
+    {
+      "chinese": "热水器",
+      "pinyin": "rèshuǐqì",
+      "english": "water heater"
+    },
+    {
+      "chinese": "租金",
+      "pinyin": "zūjīn",
+      "english": "rent, rental"
+    },
+    {
+      "chinese": "包括",
+      "pinyin": "bāokuò",
+      "english": "to include"
+    },
+    {
+      "chinese": "押金",
+      "pinyin": "yājīn",
+      "english": "deposit"
+    },
+    {
+      "chinese": "合同",
+      "pinyin": "hétong",
+      "english": "contract"
+    },
+    {
+      "chinese": "考录",
+      "pinyin": "kǎolǜ",
+      "english": "to consider"
+    },
+    {
+      "chinese": "决定",
+      "pinyin": "juédìng",
+      "english": "to decide; decision"
+    }
   ]
 }

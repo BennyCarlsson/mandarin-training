@@ -2987,7 +2987,7 @@
     {
       "chinese": "一边一边",
       "pinyin": "yìbiān yìbiān",
-      "english": "to do "
+      "english": "to do two things at the same time"
     },
     {
       "chinese": "紧张",
@@ -3063,6 +3063,143 @@
       "chinese": "玩笑",
       "pinyin": "wánxiào",
       "english": "joke"
+    }
+  ],
+  "chapter2.18": [
+    {
+      "chinese": "丢",
+      "pinyin": "diū",
+      "english": "to lose, to be lost"
+    },
+    {
+      "chinese": "座位",
+      "pinyin": "zuòwèi",
+      "english": "seat"
+    },
+    {
+      "chinese": "怎么搞的",
+      "pinyin": "zěnme gǎo de",
+      "english": "(a blame)"
+    },
+    {
+      "chinese": "记得",
+      "pinyin": "jìde",
+      "english": "to remember"
+    },
+    {
+      "chinese": "想起来",
+      "pinyin": "xiǎng qilai",
+      "english": "to call back to mind"
+    },
+    {
+      "chinese": "没用",
+      "pinyin": "méiyòng",
+      "english": "useless"
+    },
+    {
+      "chinese": "它",
+      "pinyin": "tā",
+      "english": "it"
+    },
+    {
+      "chinese": "扔",
+      "pinyin": "rēng",
+      "english": "to throw"
+    },
+    {
+      "chinese": "垃圾箱",
+      "pinyin": "lājīxīang",
+      "english": "garbage can"
+    },
+    {
+      "chinese": "垃圾",
+      "pinyin": "lājjī",
+      "english": "rubbish, garbage"
+    },
+    {
+      "chinese": "重要",
+      "pinyin": "zhòngyào",
+      "english": "important"
+    },
+    {
+      "chinese": "护照",
+      "pinyin": "hùzhào",
+      "english": "passport"
+    },
+    {
+      "chinese": "学生证",
+      "pinyin": "xuéshēngzhèng",
+      "english": "student card"
+    },
+    {
+      "chinese": "乘客",
+      "pinyin": "chéngkè",
+      "english": "passenger"
+    },
+    {
+      "chinese": "客人",
+      "pinyin": "kèrén",
+      "english": "guest"
+    },
+    {
+      "chinese": "办法",
+      "pinyin": "bànfǎ",
+      "english": "way, means, measure"
+    },
+    {
+      "chinese": "名片",
+      "pinyin": "míngpiàn",
+      "english": "name card, business card"
+    },
+    {
+      "chinese": "证件",
+      "pinyin": "zhèngjiàn",
+      "english": "paper, certificate"
+    },
+    {
+      "chinese": "盘",
+      "pinyin": "pán",
+      "english": "M.W for tape"
+    },
+    {
+      "chinese": "磁带",
+      "pinyin": "cídài",
+      "english": "tape 📼"
+    },
+    {
+      "chinese": "人民币",
+      "pinyin": "rénmínbì",
+      "english": "RMB 💴"
+    },
+    {
+      "chinese": "美元",
+      "pinyin": "měiyuán",
+      "english": "US dollar 💵"
+    },
+    {
+      "chinese": "送",
+      "pinyin": "sòng",
+      "english": "to send, to deliver"
+    },
+    {
+      "chinese": "交",
+      "pinyin": "jiāo",
+      "english": "to hand in, to hand over"
+    },
+    {
+      "chinese": "发现",
+      "pinyin": "fāxiàn",
+      "english": "to discover, to find out"
+    },
+    {
+      "chinese": "骂",
+      "pinyin": "mà",
+      "english": "to abuse, to curse, to scold"
+    },
+    {
+      "chinese": "江南大学",
+      "pinyin": "jiāngnán dàxué",
+      "english": "Jiangnan University"
     }
   ]
 }

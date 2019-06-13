@@ -225,6 +225,15 @@ const ChapterButtons = props => {
       >
         Book 2 Chapter 17
       </Button>
+      <Button
+        variant="contained"
+        size="large"
+        color="primary"
+        className={classes.button}
+        onClick={() => startChapter("chapter2.18")}
+      >
+        Book 2 Chapter 18
+      </Button>
     </Fragment>
   )
 }

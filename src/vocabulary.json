@@ -3201,5 +3201,461 @@
       "pinyin": "jiāngnán dàxué",
       "english": "Jiangnan University"
     }
+  ],
+  "chapter3.1": [
+    {
+      "chinese": "哦",
+      "pinyin": "ò",
+      "english": "oh"
+    },
+    {
+      "chinese": "学期",
+      "pinyin": "xuéqī",
+      "english": "semester"
+    },
+    {
+      "chinese": "注册",
+      "pinyin": "zhùcè",
+      "english": "register; enroll"
+    },
+    {
+      "chinese": "教材",
+      "pinyin": "jiàocái",
+      "english": "textbook, teaching material"
+    },
+    {
+      "chinese": "补办",
+      "pinyin": "bǔbàn",
+      "english": "to do sth. after the proper time for it in order make up"
+    },
+    {
+      "chinese": "补",
+      "pinyin": "bǔ",
+      "english": "to make up"
+    },
+    {
+      "chinese": "办",
+      "pinyin": "bàn",
+      "english": "to do, to handel"
+    },
+    {
+      "chinese": "申请表",
+      "pinyin": "shēnqǐngbiǎo",
+      "english": "application form"
+    },
+    {
+      "chinese": "申请",
+      "pinyin": "shēnqǐng",
+      "english": "application, to apply"
+    },
+    {
+      "chinese": "填",
+      "pinyin": "tián",
+      "english": "to fill in (a form/blank spaces)"
+    },
+    {
+      "chinese": "填写",
+      "pinyin": "tiánxiě",
+      "english": "to fill in (a form/blank spaces)"
+    },
+    {
+      "chinese": "姓名",
+      "pinyin": "xìngmíng",
+      "english": "(full) name"
+    },
+    {
+      "chinese": "学号",
+      "pinyin": "xuéhào",
+      "english": "student number"
+    },
+    {
+      "chinese": "国籍",
+      "pinyin": "guójí",
+      "english": "nationality"
+    },
+    {
+      "chinese": "性别",
+      "pinyin": "xìngbié",
+      "english": "sex, gender"
+    },
+    {
+      "chinese": "理由",
+      "pinyin": "lǐyòu",
+      "english": "reason"
+    },
+    {
+      "chinese": "寸",
+      "pinyin": "cùn",
+      "english": "inch"
+    },
+    {
+      "chinese": "手续费",
+      "pinyin": "shǒuxùfèi",
+      "english": "service charge, commission"
+    },
+    {
+      "chinese": "手续",
+      "pinyin": "shǒuxù",
+      "english": "formality, procedure"
+    },
+    {
+      "chinese": "大约",
+      "pinyin": "dàyuē",
+      "english": "about, approximately"
+    },
+    {
+      "chinese": "须知",
+      "pinyin": "xūzhī",
+      "english": "notice, points for attention"
+    },
+    {
+      "chinese": "节选",
+      "pinyin": "jiéxuǎn",
+      "english": "excerpt"
+    },
+    {
+      "chinese": "身份",
+      "pinyin": "shēnfèn",
+      "english": "identity"
+    },
+    {
+      "chinese": "证明",
+      "pinyin": "zhèngmíng",
+      "english": "certificate, to prove"
+    },
+    {
+      "chinese": "办理",
+      "pinyin": "bànlǐ",
+      "english": "to handle, to transact"
+    },
+    {
+      "chinese": "出示",
+      "pinyin": "chūshì",
+      "english": "to show"
+    },
+    {
+      "chinese": "随身i",
+      "pinyin": "suíshēn",
+      "english": "(to have, bring, take) with oneself"
+    }
+  ],
+  "chapter3.2": [
+    {
+      "chinese": "奶奶",
+      "pinyin": "nǎinai",
+      "english": "grandma"
+    },
+    {
+      "chinese": "孙女",
+      "pinyin": "sūnnǚ",
+      "english": "granddaughter"
+    },
+    {
+      "chinese": "频道",
+      "pinyin": "píndào",
+      "english": "channel"
+    },
+    {
+      "chinese": "节目",
+      "pinyin": "jiémù",
+      "english": "program"
+    },
+    {
+      "chinese": "念经",
+      "pinyin": "niàn jīng",
+      "english": "to recite or chant scriptures"
+    },
+    {
+      "chinese": "流行",
+      "pinyin": "liúxíng",
+      "english": "popular"
+    },
+    {
+      "chinese": "实在",
+      "pinyin": "shízài",
+      "english": "indeed, really"
+    },
+    {
+      "chinese": "怪不得",
+      "pinyin": "guàibude",
+      "english": "no wonder, so that is why"
+    },
+    {
+      "chinese": "唐装",
+      "pinyin": "tángzhuāng",
+      "english": "traditional Chinese garments"
+    },
+    {
+      "chinese": "奇怪",
+      "pinyin": "qíguài",
+      "english": "strange"
+    },
+    {
+      "chinese": "过时",
+      "pinyin": "guòshíi",
+      "english": "out-of-date, obsolete"
+    },
+    {
+      "chinese": "式样",
+      "pinyin": "shìyàng",
+      "english": "style, type, model"
+    },
+    {
+      "chinese": "说不定",
+      "pinyin": "shuōbudìng",
+      "english": "maybe, perhaps"
+    },
+    {
+      "chinese": "趟",
+      "pinyin": "tàng",
+      "english": "MW used for a round trip"
+    },
+    {
+      "chinese": "酷",
+      "pinyin": "kù",
+      "english": "cool"
+    },
+    {
+      "chinese": "时尚",
+      "pinyin": "shíshàng",
+      "english": "fashion, vogue"
+    },
+    {
+      "chinese": "姑娘",
+      "pinyin": "gūniang",
+      "english": "girl"
+    },
+    {
+      "chinese": "小伙子",
+      "pinyin": "xiǎohuǒzi",
+      "english": "young man"
+    },
+    {
+      "chinese": "咖啡馆",
+      "pinyin": "kāfēiguǎn",
+      "english": "cafe"
+    },
+    {
+      "chinese": "越来越",
+      "pinyin": "yuè lái yuè",
+      "english": "more and more"
+    },
+    {
+      "chinese": "白领",
+      "pinyin": "báilǐng",
+      "english": "white-collar worker"
+    },
+    {
+      "chinese": "经历",
+      "pinyin": "jīnglì",
+      "english": "experience"
+    },
+    {
+      "chinese": "大多数",
+      "pinyin": "dàduōshù",
+      "english": "greate majority"
+    },
+    {
+      "chinese": "留学",
+      "pinyin": "liú xué",
+      "english": "to study abroad"
+    },
+    {
+      "chinese": "养成",
+      "pinyin": "yǎngchéng",
+      "english": "to form, to cultivate"
+    },
+    {
+      "chinese": "绿茶",
+      "pinyin": "lǚchá",
+      "english": "green tea"
+    },
+    {
+      "chinese": "龙井",
+      "pinyin": "lóngjǐng",
+      "english": "Longjing or Dragon well tea"
+    },
+    {
+      "chinese": "可乐",
+      "pinyin": "kělè",
+      "english": "coca-cola"
+    },
+    {
+      "chinese": "冰凉",
+      "pinyin": "bīngliáng",
+      "english": "ice-cold"
+    },
+    {
+      "chinese": "成为",
+      "pinyin": "chéngwéi",
+      "english": "to become, to turn into"
+    },
+    {
+      "chinese": "嘛",
+      "pinyin": "ma",
+      "english": "”used to indicate that sth. is obvious"
+    },
+    {
+      "chinese": "变",
+      "pinyin": "biàn",
+      "english": "to become, to turn into "
+    }
+  ],
+  "chapter3.3": [
+    {
+      "chinese": "家常菜",
+      "pinyin": "jiācháng cài",
+      "english": "home-style dish"
+    },
+    {
+      "chinese": "切",
+      "pinyin": "qiē",
+      "english": "to cut, to slice"
+    },
+    {
+      "chinese": "块儿",
+      "pinyin": "kuàir",
+      "english": "piece, lump, chunk"
+    },
+    {
+      "chinese": "匀",
+      "pinyin": "yún",
+      "english": "even"
+    },
+    {
+      "chinese": "煤气灶",
+      "pinyin": "méiqìzào",
+      "english": "gas burner, gas cooker"
+    },
+    {
+      "chinese": "锅",
+      "pinyin": "guō",
+      "english": "pot, wok"
+    },
+    {
+      "chinese": "倒",
+      "pinyin": "dào",
+      "english": "to pour"
+    },
+    {
+      "chinese": "盛",
+      "pinyin": "chéng",
+      "english": "to fill, to ladle"
+    },
+    {
+      "chinese": "翻炒",
+      "pinyin": "fān chǎo",
+      "english": "to stir and fry"
+    },
+    {
+      "chinese": "出差",
+      "pinyin": "chū chāi",
+      "english": "to go on business trip"
+    },
+    {
+      "chinese": "之间",
+      "pinyin": "zhījiān",
+      "english": "between, among"
+    },
+    {
+      "chinese": "作为",
+      "pinyin": "zuòwéi",
+      "english": "as, regard as; to take for"
+    },
+    {
+      "chinese": "普通",
+      "pinyin": "pǔtóng",
+      "english": "common"
+    },
+    {
+      "chinese": "社交",
+      "pinyin": "shèjiāo",
+      "english": "social intercourse, social"
+    },
+    {
+      "chinese": "方式",
+      "pinyin": "fāngshì",
+      "english": "way, means"
+    },
+    {
+      "chinese": "陌生",
+      "pinyin": "mòshēng",
+      "english": "strange, unknown"
+    },
+    {
+      "chinese": "熟人",
+      "pinyin": "shúrén",
+      "english": "acquaintance"
+    },
+    {
+      "chinese": "严肃",
+      "pinyin": "yánsù",
+      "english": "stern, strict, earnest"
+    },
+    {
+      "chinese": "话题",
+      "pinyin": "huàtí",
+      "english": "topic"
+    },
+    {
+      "chinese": "轻松",
+      "pinyin": "qīngsōng",
+      "english": "relaxed"
+    },
+    {
+      "chinese": "复杂",
+      "pinyin": "fùzá",
+      "english": "complicated"
+    },
+    {
+      "chinese": "许多",
+      "pinyin": "xǔduō",
+      "english": "many, much, a lot of"
+    },
+    {
+      "chinese": "人情味",
+      "pinyin": "rénqíngwèi",
+      "english": "human interest, human kindness"
+    },
+    {
+      "chinese": "主任",
+      "pinyin": "zhǔrén",
+      "english": "host or hostess"
+    },
+    {
+      "chinese": "菜肴",
+      "pinyin": "càiyáo",
+      "english": "dish, food"
+    },
+    {
+      "chinese": "丰富",
+      "pinyin": "fēngfù",
+      "english": "abundant"
+    },
+    {
+      "chinese": "搞",
+      "pinyin": "gǎo",
+      "english": "to do"
+    },
+    {
+      "chinese": "烦",
+      "pinyin": "fán",
+      "english": "annoyed"
+    },
+    {
+      "chinese": "客户",
+      "pinyin": "kèhù",
+      "english": "client, customer"
+    },
+    {
+      "chinese": "终于",
+      "pinyin": "zhōngyú",
+      "english": "finally, at last"
+    },
+    {
+      "chinese": "改",
+      "pinyin": "gǎi",
+      "english": "to change"
+    }
   ]
 }
